@@ -59,12 +59,10 @@ system.
 
     Note that you can use C-x o to cycle through the windows---you will visit
     each in turn.  
-
     Now let's look at the man page for status, and see that we can give it an
     optional argument for the "horizon" if we want to look further ahead.
     
     Go back into the eshell window and try
-
     status 14
 
     to see the assignments coming up in the next 14 days (2 weeks). Lets take a
