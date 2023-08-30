@@ -1,0 +1,12 @@
+Grading at 08/30/2023:23:43:30.446792
+For commit ID 5a30abc6963e2b24d6938b04323b4fbeb52cf622
+Grading at Wed Aug 30 07:43:30 PM EDT 2023
+Reading your quiz answers from answers.txt
+You got 2 questions incorrect.
+You might want to review these concepts:
+------------
+How a function gives back a value and how to communicate with the user
+How to define and use variables
+------------
+
+Overall Grade: FAILED
