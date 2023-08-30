@@ -1,13 +1,11 @@
-Grading at 08/30/2023:15:43:51.303705
-For commit ID 1a176c41f4dc0f0d6de613817f74fb784cb5390f
-Grading at Wed Aug 30 11:43:50 AM EDT 2023
+Grading at 08/30/2023:15:59:42.711774
+For commit ID a2afe0113f62ad6f1bd91afdedcc249784db6b44
+Grading at Wed Aug 30 11:59:42 AM EDT 2023
 Reading your quiz answers from answers.txt
-You got 3 questions incorrect.
+You got 2 questions incorrect.
 You might want to review these concepts:
 ------------
-Everything is a number
 How to approach developing an algorithm
-The introduction to Chapter 1
 ------------
 
 Overall Grade: FAILED
