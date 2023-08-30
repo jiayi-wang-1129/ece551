@@ -1,10 +1,10 @@
 C
 A
-B
 C
+C
+C
+B
+B
 A
-B
-B
-C
 A
 B
