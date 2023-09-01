@@ -3,8 +3,9 @@ In the loop with i = 1, a = 7
 a = 27
 x = 2
 In anotherFunction(2,9)
-a is 2, b is 5
-a is 2, b is 5
-a is 2, b is 4
-b = 250
+a is 2, b is 9
+a is 2, b is 9
+a is 2, b is 8
+a is 3, b is 6
+b = 325
 x = 2
