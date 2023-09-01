@@ -1,0 +1,9 @@
+a is %d\n 3
+b is %d\n 8
+a * i + b = %d\n 8
+a * i + b = %d\n 12
+a * i + b = %d\n 16
+a * i + b = %d\n 20
+a is %d\n 5
+b is %d\n 6
+0
