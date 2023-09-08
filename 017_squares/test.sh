@@ -6,7 +6,7 @@ EOF
 cat squares.c >> temp.c
 cat >> temp.c <<EOF
 int main(void) {
- squares(6, 3, 4, 7);
+ squares(1, 3, 4, 7);
  return 0;
 }
 EOF
