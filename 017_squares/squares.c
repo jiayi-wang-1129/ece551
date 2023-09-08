@@ -19,9 +19,10 @@ void squares(int size1, int x_offset, int y_offset, int size2) {
     //count from 0 to w. Call the number you count with x
     for (int x = 0; x < w; x++) {
       //check if  EITHE
-      if (((x >= x_offset && x < x_offset + size2) ||
-           (y >= y_offset && y < y_offset + size2)) &&
-          (x == x_offset || x == x_offset + size2 - 1)) {
+      if (((x >= x_offset && x < x_offset + size2) &&
+           (y == y_offset || y == y_offset + size2 - 1)) ||
+          ((x == x_offset || x == x_offset + size2 - 1) &&
+           (y >= y_offset && y < y_offset + size2))) {
         printf("*");
       }
 
