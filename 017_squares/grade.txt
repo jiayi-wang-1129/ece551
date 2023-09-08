@@ -1,6 +1,6 @@
-Grading at 09/08/2023:04:23:47.479235
-For commit ID fcf6e489fe622fa3e9572edbb0d25eeece4c6d5f
-Grading at Fri Sep  8 12:23:47 AM EDT 2023
+Grading at 09/08/2023:04:30:12.685951
+For commit ID 86e9fb4f28803afb98d4f84a7cfa1d1df1bb3a87
+Grading at Fri Sep  8 12:30:12 AM EDT 2023
 Checking the syntax of your code in squares.c
 This code is not legal.  Please check the syntax.
 
