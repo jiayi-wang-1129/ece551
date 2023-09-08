@@ -1,6 +1,6 @@
-Grading at 09/08/2023:05:17:15.392828
+Grading at 09/08/2023:05:18:33.841459
 For commit ID 65788185dbbd0e861e7fedc11cf13646510964d3
-Grading at Fri Sep  8 01:15:57 AM EDT 2023
+Grading at Fri Sep  8 01:17:16 AM EDT 2023
 Checking the syntax of your code in squares.c
 The code is legal, now testing its behavior.
 Checking squares(1,1, 1, 1)
@@ -23,27 +23,28 @@ Here are the differences:
  *   *							      <
  *   *							      <
  *****							      <
-Checking squares(1,1, 1, 10)
+Checking squares(1,1, 1, 11)
 Your program produced the wrong output!
 Here are the differences:
-#          						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*
- **********						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- **********						      <
+#           						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*
+ ***********						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ ***********						      <
 Checking squares(1,1, 3, 1)
 Running your code indicated failure
 Checking squares(1,1, 3, 2)
 Running your code indicated failure
 Checking squares(1,1, 3, 5)
 Running your code indicated failure
-Checking squares(1,1, 3, 8)
+Checking squares(1,1, 3, 9)
 Running your code indicated failure
 Checking squares(1,1, 8, 1)
 Running your code indicated failure
@@ -51,7 +52,7 @@ Checking squares(1,1, 8, 2)
 Running your code indicated failure
 Checking squares(1,1, 8, 5)
 Running your code indicated failure
-Checking squares(1,1, 8, 8)
+Checking squares(1,1, 8, 11)
 Running your code indicated failure
 Checking squares(1,2, 1, 1)
 Your program produced the wrong output!
@@ -73,32 +74,36 @@ Here are the differences:
   *   *							      <
   *   *							      <
   *****							      <
-Checking squares(1,2, 1, 7)
+Checking squares(1,2, 1, 11)
 Your program produced the wrong output!
 Here are the differences:
-#        						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*
-  *******						      <
-  *     *						      <
-  *     *						      <
-  *     *						      <
-  *     *						      <
-  *     *						      <
-  *******						      <
+#            						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*
+  ***********						      <
+  *         *						      <
+  *         *						      <
+  *         *						      <
+  *         *						      <
+  *         *						      <
+  *         *						      <
+  *         *						      <
+  *         *						      <
+  *         *						      <
+  ***********						      <
 Checking squares(1,2, 3, 1)
 Running your code indicated failure
 Checking squares(1,2, 3, 2)
 Running your code indicated failure
 Checking squares(1,2, 3, 5)
 Running your code indicated failure
-Checking squares(1,2, 3, 9)
+Checking squares(1,2, 3, 7)
 Running your code indicated failure
-Checking squares(1,2, 5, 1)
+Checking squares(1,2, 8, 1)
 Running your code indicated failure
-Checking squares(1,2, 5, 2)
+Checking squares(1,2, 8, 2)
 Running your code indicated failure
-Checking squares(1,2, 5, 5)
+Checking squares(1,2, 8, 5)
 Running your code indicated failure
-Checking squares(1,2, 5, 10)
+Checking squares(1,2, 8, 11)
 Running your code indicated failure
 Checking squares(1,3, 1, 1)
 Running your code indicated failure
@@ -106,7 +111,7 @@ Checking squares(1,3, 1, 2)
 Running your code indicated failure
 Checking squares(1,3, 1, 5)
 Running your code indicated failure
-Checking squares(1,3, 1, 11)
+Checking squares(1,3, 1, 7)
 Running your code indicated failure
 Checking squares(1,3, 3, 1)
 Running your code indicated failure
@@ -122,7 +127,7 @@ Checking squares(1,3, 8, 2)
 Running your code indicated failure
 Checking squares(1,3, 8, 5)
 Running your code indicated failure
-Checking squares(1,3, 8, 7)
+Checking squares(1,3, 8, 9)
 Running your code indicated failure
 Checking squares(2,1, 1, 1)
 Your program produced the wrong output!
@@ -164,15 +169,15 @@ Checking squares(2,1, 3, 2)
 Running your code indicated failure
 Checking squares(2,1, 3, 5)
 Running your code indicated failure
-Checking squares(2,1, 3, 9)
+Checking squares(2,1, 3, 8)
 Running your code indicated failure
-Checking squares(2,1, 8, 1)
+Checking squares(2,1, 5, 1)
 Running your code indicated failure
-Checking squares(2,1, 8, 2)
+Checking squares(2,1, 5, 2)
 Running your code indicated failure
-Checking squares(2,1, 8, 5)
+Checking squares(2,1, 5, 5)
 Running your code indicated failure
-Checking squares(2,1, 8, 9)
+Checking squares(2,1, 5, 11)
 Running your code indicated failure
 Checking squares(2,2, 1, 1)
 Your program produced the wrong output!
@@ -194,59 +199,58 @@ Here are the differences:
   *   *							      <
   *   *							      <
   *****							      <
-Checking squares(2,2, 1, 10)
+Checking squares(2,2, 1, 9)
 Your program produced the wrong output!
 Here are the differences:
-##          						      /	 /n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*
-##**********						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  **********						      <
+##         						      /	 /n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*
+##*********						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *********						      <
 Checking squares(2,2, 3, 1)
 Running your code indicated failure
 Checking squares(2,2, 3, 2)
 Running your code indicated failure
 Checking squares(2,2, 3, 5)
 Running your code indicated failure
-Checking squares(2,2, 3, 11)
+Checking squares(2,2, 3, 8)
 Running your code indicated failure
-Checking squares(2,2, 5, 1)
+Checking squares(2,2, 7, 1)
 Running your code indicated failure
-Checking squares(2,2, 5, 2)
+Checking squares(2,2, 7, 2)
 Running your code indicated failure
-Checking squares(2,2, 5, 5)
+Checking squares(2,2, 7, 5)
 Running your code indicated failure
-Checking squares(2,2, 5, 8)
+Checking squares(2,2, 7, 7)
 Running your code indicated failure
-Checking squares(2,3, 1, 1)
+Checking squares(2,4, 1, 1)
 Running your code indicated failure
-Checking squares(2,3, 1, 2)
+Checking squares(2,4, 1, 2)
 Running your code indicated failure
-Checking squares(2,3, 1, 5)
+Checking squares(2,4, 1, 5)
 Running your code indicated failure
-Checking squares(2,3, 1, 7)
+Checking squares(2,4, 1, 7)
 Running your code indicated failure
-Checking squares(2,3, 3, 1)
+Checking squares(2,4, 3, 1)
 Running your code indicated failure
-Checking squares(2,3, 3, 2)
+Checking squares(2,4, 3, 2)
 Running your code indicated failure
-Checking squares(2,3, 3, 5)
+Checking squares(2,4, 3, 5)
 Running your code indicated failure
-Checking squares(2,3, 3, 10)
+Checking squares(2,4, 3, 9)
 Running your code indicated failure
-Checking squares(2,3, 8, 1)
+Checking squares(2,4, 8, 1)
 Running your code indicated failure
-Checking squares(2,3, 8, 2)
+Checking squares(2,4, 8, 2)
 Running your code indicated failure
-Checking squares(2,3, 8, 5)
+Checking squares(2,4, 8, 5)
 Running your code indicated failure
-Checking squares(2,3, 8, 9)
+Checking squares(2,4, 8, 8)
 Running your code indicated failure
 Checking squares(3,1, 1, 1)
 Running your code indicated failure
@@ -265,27 +269,26 @@ Here are the differences:
  *   *							      <
  *   *							      <
  *****							      <
-Checking squares(3,1, 1, 10)
+Checking squares(3,1, 1, 9)
 Your program produced the wrong output!
 Here are the differences:
-###        						      /	 /n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*
-#**********						      <
-#*#       *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- **********						      <
+###       						      /	 /n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*
+#*********						      <
+#*#      *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *********						      <
 Checking squares(3,1, 3, 1)
 Running your code indicated failure
 Checking squares(3,1, 3, 2)
 Running your code indicated failure
 Checking squares(3,1, 3, 5)
 Running your code indicated failure
-Checking squares(3,1, 3, 10)
+Checking squares(3,1, 3, 8)
 Running your code indicated failure
 Checking squares(3,1, 7, 1)
 Running your code indicated failure
@@ -293,7 +296,7 @@ Checking squares(3,1, 7, 2)
 Running your code indicated failure
 Checking squares(3,1, 7, 5)
 Running your code indicated failure
-Checking squares(3,1, 7, 9)
+Checking squares(3,1, 7, 8)
 Running your code indicated failure
 Checking squares(3,2, 1, 1)
 Running your code indicated failure
@@ -301,7 +304,7 @@ Checking squares(3,2, 1, 2)
 Running your code indicated failure
 Checking squares(3,2, 1, 5)
 Running your code indicated failure
-Checking squares(3,2, 1, 9)
+Checking squares(3,2, 1, 8)
 Running your code indicated failure
 Checking squares(3,2, 3, 1)
 Running your code indicated failure
@@ -309,7 +312,7 @@ Checking squares(3,2, 3, 2)
 Running your code indicated failure
 Checking squares(3,2, 3, 5)
 Running your code indicated failure
-Checking squares(3,2, 3, 7)
+Checking squares(3,2, 3, 11)
 Running your code indicated failure
 Checking squares(3,2, 8, 1)
 Running your code indicated failure
@@ -317,31 +320,31 @@ Checking squares(3,2, 8, 2)
 Running your code indicated failure
 Checking squares(3,2, 8, 5)
 Running your code indicated failure
-Checking squares(3,2, 8, 7)
+Checking squares(3,2, 8, 8)
 Running your code indicated failure
-Checking squares(3,5, 1, 1)
+Checking squares(3,3, 1, 1)
 Running your code indicated failure
-Checking squares(3,5, 1, 2)
+Checking squares(3,3, 1, 2)
 Running your code indicated failure
-Checking squares(3,5, 1, 5)
+Checking squares(3,3, 1, 5)
 Running your code indicated failure
-Checking squares(3,5, 1, 9)
+Checking squares(3,3, 1, 9)
 Running your code indicated failure
-Checking squares(3,5, 3, 1)
+Checking squares(3,3, 3, 1)
 Running your code indicated failure
-Checking squares(3,5, 3, 2)
+Checking squares(3,3, 3, 2)
 Running your code indicated failure
-Checking squares(3,5, 3, 5)
+Checking squares(3,3, 3, 5)
 Running your code indicated failure
-Checking squares(3,5, 3, 8)
+Checking squares(3,3, 3, 9)
 Running your code indicated failure
-Checking squares(3,5, 8, 1)
+Checking squares(3,3, 5, 1)
 Running your code indicated failure
-Checking squares(3,5, 8, 2)
+Checking squares(3,3, 5, 2)
 Running your code indicated failure
-Checking squares(3,5, 8, 5)
+Checking squares(3,3, 5, 5)
 Running your code indicated failure
-Checking squares(3,5, 8, 7)
+Checking squares(3,3, 5, 9)
 Running your code indicated failure
 Checking squares(6,1, 1, 1)
 Running your code indicated failure
@@ -356,32 +359,34 @@ Here are the differences:
 #*   *							      <
 #*   *							      <
 #*****							      <
-Checking squares(6,1, 1, 7)
+Checking squares(6,1, 1, 9)
 Your program produced the wrong output!
 Here are the differences:
-######  						      /	 /n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*
-#*******						      <
-#*   # *						      <
-#*   # *						      <
-#*   # *						      <
-#*#### *						      <
- *     *						      <
- *******						      <
+######    						      /	 /n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*
+#*********						      <
+#*   #   *						      <
+#*   #   *						      <
+#*   #   *						      <
+#*####   *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *********						      <
 Checking squares(6,1, 3, 1)
 Running your code indicated failure
 Checking squares(6,1, 3, 2)
 Running your code indicated failure
 Checking squares(6,1, 3, 5)
 Running your code indicated failure
-Checking squares(6,1, 3, 11)
+Checking squares(6,1, 3, 8)
 Running your code indicated failure
-Checking squares(6,1, 5, 1)
+Checking squares(6,1, 6, 1)
 Running your code indicated failure
-Checking squares(6,1, 5, 2)
+Checking squares(6,1, 6, 2)
 Running your code indicated failure
-Checking squares(6,1, 5, 5)
+Checking squares(6,1, 6, 5)
 Running your code indicated failure
-Checking squares(6,1, 5, 9)
+Checking squares(6,1, 6, 8)
 Running your code indicated failure
 Checking squares(6,2, 1, 1)
 Running your code indicated failure
@@ -389,7 +394,7 @@ Checking squares(6,2, 1, 2)
 Running your code indicated failure
 Checking squares(6,2, 1, 5)
 Running your code indicated failure
-Checking squares(6,2, 1, 9)
+Checking squares(6,2, 1, 10)
 Running your code indicated failure
 Checking squares(6,2, 3, 1)
 Running your code indicated failure
@@ -397,15 +402,15 @@ Checking squares(6,2, 3, 2)
 Running your code indicated failure
 Checking squares(6,2, 3, 5)
 Running your code indicated failure
-Checking squares(6,2, 3, 8)
+Checking squares(6,2, 3, 7)
 Running your code indicated failure
-Checking squares(6,2, 8, 1)
+Checking squares(6,2, 6, 1)
 Running your code indicated failure
-Checking squares(6,2, 8, 2)
+Checking squares(6,2, 6, 2)
 Running your code indicated failure
-Checking squares(6,2, 8, 5)
+Checking squares(6,2, 6, 5)
 Running your code indicated failure
-Checking squares(6,2, 8, 9)
+Checking squares(6,2, 6, 9)
 Running your code indicated failure
 Checking squares(6,4, 1, 1)
 Running your code indicated failure
@@ -421,15 +426,15 @@ Checking squares(6,4, 3, 2)
 Running your code indicated failure
 Checking squares(6,4, 3, 5)
 Running your code indicated failure
-Checking squares(6,4, 3, 7)
+Checking squares(6,4, 3, 11)
 Running your code indicated failure
-Checking squares(6,4, 7, 1)
+Checking squares(6,4, 6, 1)
 Running your code indicated failure
-Checking squares(6,4, 7, 2)
+Checking squares(6,4, 6, 2)
 Running your code indicated failure
-Checking squares(6,4, 7, 5)
+Checking squares(6,4, 6, 5)
 Running your code indicated failure
-Checking squares(6,4, 7, 11)
+Checking squares(6,4, 6, 10)
 Running your code indicated failure
 Passed 0 out of 144 tests
 
