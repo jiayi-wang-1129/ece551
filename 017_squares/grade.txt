@@ -1,52 +1,50 @@
-Grading at 09/08/2023:15:20:06.382684
-For commit ID 5bfe438337b29bdcfe5261a897e82b40fb02be80
-Grading at Fri Sep  8 11:20:01 AM EDT 2023
+Grading at 09/08/2023:15:31:21.326678
+For commit ID b98a26a419cdda21790326435919ce32d10956f3
+Grading at Fri Sep  8 11:31:16 AM EDT 2023
 Checking the syntax of your code in squares.c
 The code is legal, now testing its behavior.
 Checking squares(1,1, 1, 1)
 Your program produced the wrong output!
 Here are the differences:
-# 							      /	#/n*/n /n*/n
+# 							      /	#*/n */n
  *							      <
 Checking squares(1,1, 1, 2)
 Your program produced the wrong output!
 Here are the differences:
-#  							      /	#/n*/n*/n /n*/n*/n /n*/n*/n
+#  							      /	#**/n **/n **/n
  **							      <
  **							      <
 Checking squares(1,1, 1, 5)
 Your program produced the wrong output!
 Here are the differences:
-#     							      /	#/n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n /n*/n*
+#     							      /	#*****/n *****/n *****/n *****/n *****/n *****/n
  *****							      <
  *   *							      <
  *   *							      <
  *   *							      <
  *****							      <
-Checking squares(1,1, 1, 9)
+Checking squares(1,1, 1, 7)
 Your program produced the wrong output!
 Here are the differences:
-#         						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n*/n*/n*/n*/n 
- *********						      <
- *       *						      <
- *       *						      <
- *       *						      <
- *       *						      <
- *       *						      <
- *       *						      <
- *       *						      <
- *********						      <
+#       						      /	#*******/n *******/n *******/n *******/n *******/n *******/n 
+ *******						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *******						      <
 Checking squares(1,1, 3, 1)
 Your program produced the wrong output!
 Here are the differences:
-# 							      /	#/n*/n /n*/n /n*/n /n*/n
+# 							      /	#*/n */n */n */n
   							      <
   							      <
  *							      <
 Checking squares(1,1, 3, 2)
 Your program produced the wrong output!
 Here are the differences:
-#  							      /	#/n*/n*/n /n*/n*/n /n*/n*/n /n*/n*/n /n*/n*/n
+#  							      /	#**/n **/n **/n **/n **/n
    							      <
    							      <
  **							      <
@@ -54,7 +52,7 @@ Here are the differences:
 Checking squares(1,1, 3, 5)
 Your program produced the wrong output!
 Here are the differences:
-#     							      /	#/n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n /n*/n*
+#     							      /	#*****/n *****/n *****/n *****/n *****/n *****/n *****/n ****
       							      <
       							      <
  *****							      <
@@ -62,43 +60,51 @@ Here are the differences:
  *   *							      <
  *   *							      <
  *****							      <
-Checking squares(1,1, 3, 8)
+Checking squares(1,1, 3, 7)
 Your program produced the wrong output!
 Here are the differences:
-#        						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n*/n*/n*/n /n*/n*
-         						      <
-         						      <
- ********						      <
- *      *						      <
- *      *						      <
- *      *						      <
- *      *						      <
- *      *						      <
- *      *						      <
- ********						      <
-Checking squares(1,1, 5, 1)
+#       						      /	#*******/n *******/n *******/n *******/n *******/n *******/n 
+        						      <
+        						      <
+ *******						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *******						      <
+Checking squares(1,1, 8, 1)
 Your program produced the wrong output!
 Here are the differences:
-# 							      /	#/n*/n /n*/n /n*/n /n*/n /n*/n /n*/n
+# 							      /	#*/n */n */n */n */n */n */n */n */n
+  							      <
+  							      <
+  							      <
   							      <
   							      <
   							      <
   							      <
  *							      <
-Checking squares(1,1, 5, 2)
+Checking squares(1,1, 8, 2)
 Your program produced the wrong output!
 Here are the differences:
-#  							      /	#/n*/n*/n /n*/n*/n /n*/n*/n /n*/n*/n /n*/n*/n /n*/n*/n /n*/n*
+#  							      /	#**/n **/n **/n **/n **/n **/n **/n **/n **/n **/n
+   							      <
+   							      <
+   							      <
    							      <
    							      <
    							      <
    							      <
  **							      <
  **							      <
-Checking squares(1,1, 5, 5)
+Checking squares(1,1, 8, 5)
 Your program produced the wrong output!
 Here are the differences:
-#     							      /	#/n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n /n*/n*
+#     							      /	#*****/n *****/n *****/n *****/n *****/n *****/n *****/n ****
+      							      <
+      							      <
+      							      <
       							      <
       							      <
       							      <
@@ -108,68 +114,69 @@ Here are the differences:
  *   *							      <
  *   *							      <
  *****							      <
-Checking squares(1,1, 5, 11)
+Checking squares(1,1, 8, 10)
 Your program produced the wrong output!
 Here are the differences:
-#           						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n*/n*/n*
-            						      <
-            						      <
-            						      <
-            						      <
- ***********						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- ***********						      <
+#          						      /	#**********/n **********/n **********/n **********/n ********
+           						      <
+           						      <
+           						      <
+           						      <
+           						      <
+           						      <
+           						      <
+ **********						      <
+ *        *						      <
+ *        *						      <
+ *        *						      <
+ *        *						      <
+ *        *						      <
+ *        *						      <
+ *        *						      <
+ *        *						      <
+ **********						      <
 Checking squares(1,2, 1, 1)
 Your program produced the wrong output!
 Here are the differences:
-#  							      /	#/n /n*/n /n /n*/n
+#  							      /	# */n  */n
   *							      <
 Checking squares(1,2, 1, 2)
 Your program produced the wrong output!
 Here are the differences:
-#   							      /	#/n /n*/n*/n /n /n*/n*/n /n /n*/n*/n
+#   							      /	# **/n  **/n  **/n
   **							      <
   **							      <
 Checking squares(1,2, 1, 5)
 Your program produced the wrong output!
 Here are the differences:
-#      							      /	#/n /n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*
+#      							      /	# *****/n  *****/n  *****/n  *****/n  *****/n  *****/n
   *****							      <
   *   *							      <
   *   *							      <
   *   *							      <
   *****							      <
-Checking squares(1,2, 1, 8)
+Checking squares(1,2, 1, 7)
 Your program produced the wrong output!
 Here are the differences:
-#         						      /	#/n /n*/n*/n*/n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*/n*/n*/n*/n 
-  ********						      <
-  *      *						      <
-  *      *						      <
-  *      *						      <
-  *      *						      <
-  *      *						      <
-  *      *						      <
-  ********						      <
+#        						      /	# *******/n  *******/n  *******/n  *******/n  *******/n  ****
+  *******						      <
+  *     *						      <
+  *     *						      <
+  *     *						      <
+  *     *						      <
+  *     *						      <
+  *******						      <
 Checking squares(1,2, 3, 1)
 Your program produced the wrong output!
 Here are the differences:
-#  							      /	#/n /n*/n /n /n*/n /n /n*/n /n /n*/n
+#  							      /	# */n  */n  */n  */n
    							      <
    							      <
   *							      <
 Checking squares(1,2, 3, 2)
 Your program produced the wrong output!
 Here are the differences:
-#   							      /	#/n /n*/n*/n /n /n*/n*/n /n /n*/n*/n /n /n*/n*/n /n /n*/n*/n
+#   							      /	# **/n  **/n  **/n  **/n  **/n
     							      <
     							      <
   **							      <
@@ -177,7 +184,7 @@ Here are the differences:
 Checking squares(1,2, 3, 5)
 Your program produced the wrong output!
 Here are the differences:
-#      							      /	#/n /n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*
+#      							      /	# *****/n  *****/n  *****/n  *****/n  *****/n  *****/n  *****
        							      <
        							      <
   *****							      <
@@ -188,7 +195,7 @@ Here are the differences:
 Checking squares(1,2, 3, 8)
 Your program produced the wrong output!
 Here are the differences:
-#         						      /	#/n /n*/n*/n*/n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*/n*/n*/n*/n 
+#         						      /	# ********/n  ********/n  ********/n  ********/n  ********/n 
           						      <
           						      <
   ********						      <
@@ -202,7 +209,7 @@ Here are the differences:
 Checking squares(1,2, 8, 1)
 Your program produced the wrong output!
 Here are the differences:
-#  							      /	#/n /n*/n /n /n*/n /n /n*/n /n /n*/n /n /n*/n /n /n*/n /n /n*
+#  							      /	# */n  */n  */n  */n  */n  */n  */n  */n  */n
    							      <
    							      <
    							      <
@@ -214,7 +221,7 @@ Here are the differences:
 Checking squares(1,2, 8, 2)
 Your program produced the wrong output!
 Here are the differences:
-#   							      /	#/n /n*/n*/n /n /n*/n*/n /n /n*/n*/n /n /n*/n*/n /n /n*/n*/n 
+#   							      /	# **/n  **/n  **/n  **/n  **/n  **/n  **/n  **/n  **/n  **/n
     							      <
     							      <
     							      <
@@ -227,7 +234,7 @@ Here are the differences:
 Checking squares(1,2, 8, 5)
 Your program produced the wrong output!
 Here are the differences:
-#      							      /	#/n /n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*
+#      							      /	# *****/n  *****/n  *****/n  *****/n  *****/n  *****/n  *****
        							      <
        							      <
        							      <
@@ -240,69 +247,66 @@ Here are the differences:
   *   *							      <
   *   *							      <
   *****							      <
-Checking squares(1,2, 8, 9)
+Checking squares(1,2, 8, 7)
 Your program produced the wrong output!
 Here are the differences:
-#          						      /	#/n /n*/n*/n*/n*/n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*/n*/n*/n*
-           						      <
-           						      <
-           						      <
-           						      <
-           						      <
-           						      <
-           						      <
-  *********						      <
-  *       *						      <
-  *       *						      <
-  *       *						      <
-  *       *						      <
-  *       *						      <
-  *       *						      <
-  *       *						      <
-  *********						      <
+#        						      /	# *******/n  *******/n  *******/n  *******/n  *******/n  ****
+         						      <
+         						      <
+         						      <
+         						      <
+         						      <
+         						      <
+         						      <
+  *******						      <
+  *     *						      <
+  *     *						      <
+  *     *						      <
+  *     *						      <
+  *     *						      <
+  *******						      <
 Checking squares(1,5, 1, 1)
 Your program produced the wrong output!
 Here are the differences:
-#     							      /	#/n /n /n /n /n*/n /n /n /n /n /n*/n
+#     							      /	#    */n     */n
      *							      <
 Checking squares(1,5, 1, 2)
 Your program produced the wrong output!
 Here are the differences:
-#      							      /	#/n /n /n /n /n*/n*/n /n /n /n /n /n*/n*/n /n /n /n /n /n*/n*
+#      							      /	#    **/n     **/n     **/n
      **							      <
      **							      <
 Checking squares(1,5, 1, 5)
 Your program produced the wrong output!
 Here are the differences:
-#         						      /	#/n /n /n /n /n*/n*/n*/n*/n*/n /n /n /n /n /n*/n*/n*/n*/n*/n 
+#         						      /	#    *****/n     *****/n     *****/n     *****/n     *****/n 
      *****						      <
      *   *						      <
      *   *						      <
      *   *						      <
      *****						      <
-Checking squares(1,5, 1, 8)
+Checking squares(1,5, 1, 7)
 Your program produced the wrong output!
 Here are the differences:
-#            						      /	#/n /n /n /n /n*/n*/n*/n*/n*/n*/n*/n*/n /n /n /n /n /n*/n*/n*
-     ********						      <
-     *      *						      <
-     *      *						      <
-     *      *						      <
-     *      *						      <
-     *      *						      <
-     *      *						      <
-     ********						      <
+#           						      /	#    *******/n     *******/n     *******/n     *******/n     
+     *******						      <
+     *     *						      <
+     *     *						      <
+     *     *						      <
+     *     *						      <
+     *     *						      <
+     *******						      <
 Checking squares(1,5, 3, 1)
 Your program produced the wrong output!
 Here are the differences:
-#     							      /	#/n /n /n /n /n*/n /n /n /n /n /n*/n /n /n /n /n /n*/n /n /n 
+#     							      /	#    */n     */n     */n     */n
       							      <
       							      <
      *							      <
 Checking squares(1,5, 3, 2)
 Your program produced the wrong output!
 Here are the differences:
-#      							      /	#/n /n /n /n /n*/n*/n /n /n /n /n /n*/n*/n /n /n /n /n /n*/n*
+#      							      /	#    **/n     **/n     **/n     **/n     **/n
        							      <
        							      <
      **							      <
@@ -310,7 +314,7 @@ Here are the differences:
 Checking squares(1,5, 3, 5)
 Your program produced the wrong output!
 Here are the differences:
-#         						      /	#/n /n /n /n /n*/n*/n*/n*/n*/n /n /n /n /n /n*/n*/n*/n*/n*/n 
+#         						      /	#    *****/n     *****/n     *****/n     *****/n     *****/n 
           						      <
           						      <
      *****						      <
@@ -321,7 +325,7 @@ Here are the differences:
 Checking squares(1,5, 3, 7)
 Your program produced the wrong output!
 Here are the differences:
-#           						      /	#/n /n /n /n /n*/n*/n*/n*/n*/n*/n*/n /n /n /n /n /n*/n*/n*/n*
+#           						      /	#    *******/n     *******/n     *******/n     *******/n     
             						      <
             						      <
      *******						      <
@@ -331,11 +335,10 @@ Here are the differences:
      *     *						      <
      *     *						      <
      *******						      <
-Checking squares(1,5, 8, 1)
+Checking squares(1,5, 7, 1)
 Your program produced the wrong output!
 Here are the differences:
-#     							      /	#/n /n /n /n /n*/n /n /n /n /n /n*/n /n /n /n /n /n*/n /n /n 
-      							      <
+#     							      /	#    */n     */n     */n     */n     */n     */n     */n     
       							      <
       							      <
       							      <
@@ -343,11 +346,10 @@ Here are the differences:
       							      <
       							      <
      *							      <
-Checking squares(1,5, 8, 2)
+Checking squares(1,5, 7, 2)
 Your program produced the wrong output!
 Here are the differences:
-#      							      /	#/n /n /n /n /n*/n*/n /n /n /n /n /n*/n*/n /n /n /n /n /n*/n*
-       							      <
+#      							      /	#    **/n     **/n     **/n     **/n     **/n     **/n     **
        							      <
        							      <
        							      <
@@ -356,11 +358,10 @@ Here are the differences:
        							      <
      **							      <
      **							      <
-Checking squares(1,5, 8, 5)
+Checking squares(1,5, 7, 5)
 Your program produced the wrong output!
 Here are the differences:
-#         						      /	#/n /n /n /n /n*/n*/n*/n*/n*/n /n /n /n /n /n*/n*/n*/n*/n*/n 
-          						      <
+#         						      /	#    *****/n     *****/n     *****/n     *****/n     *****/n 
           						      <
           						      <
           						      <
@@ -372,68 +373,73 @@ Here are the differences:
      *   *						      <
      *   *						      <
      *****						      <
-Checking squares(1,5, 8, 9)
+Checking squares(1,5, 7, 11)
 Your program produced the wrong output!
 Here are the differences:
-#             						      /	#/n /n /n /n /n*/n*/n*/n*/n*/n*/n*/n*/n*/n /n /n /n /n /n*/n*
-              						      <
-              						      <
-              						      <
-              						      <
-              						      <
-              						      <
-              						      <
-     *********						      <
-     *       *						      <
-     *       *						      <
-     *       *						      <
-     *       *						      <
-     *       *						      <
-     *       *						      <
-     *       *						      <
-     *********						      <
+#               					      /	#    ***********/n     ***********/n     ***********/n     **
+                					      <
+                					      <
+                					      <
+                					      <
+                					      <
+                					      <
+     ***********					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     ***********					      <
 Checking squares(2,1, 1, 1)
 Your program produced the wrong output!
 Here are the differences:
-##							      /	#/n*/n#/n*/n
+##							      /	#*/n#*/n
 #*							      <
 Checking squares(2,1, 1, 2)
 Your program produced the wrong output!
 Here are the differences:
-## 							      /	#/n*/n*/n#/n*/n*/n /n*/n*/n
+## 							      /	#**/n#**/n **/n
 #**							      <
  **							      <
 Checking squares(2,1, 1, 5)
 Your program produced the wrong output!
 Here are the differences:
-##    							      /	#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n /n*/n*
+##    							      /	#*****/n#*****/n *****/n *****/n *****/n *****/n
 #*****							      <
  *   *							      <
  *   *							      <
  *   *							      <
  *****							      <
-Checking squares(2,1, 1, 7)
+Checking squares(2,1, 1, 11)
 Your program produced the wrong output!
 Here are the differences:
-##      						      /	#/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n*/n*/n /n*/n*/n*/n*
-#*******						      <
- *     *						      <
- *     *						      <
- *     *						      <
- *     *						      <
- *     *						      <
- *******						      <
+##          						      /	#***********/n#***********/n ***********/n ***********/n ****
+#***********						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ *         *						      <
+ ***********						      <
 Checking squares(2,1, 3, 1)
 Your program produced the wrong output!
 Here are the differences:
-##							      /	#/n*/n#/n*/n /n*/n /n*/n
+##							      /	#*/n#*/n */n */n
 ##							      <
   							      <
  *							      <
 Checking squares(2,1, 3, 2)
 Your program produced the wrong output!
 Here are the differences:
-## 							      /	#/n*/n*/n#/n*/n*/n /n*/n*/n /n*/n*/n /n*/n*/n
+## 							      /	#**/n#**/n **/n **/n **/n
 ## 							      <
    							      <
  **							      <
@@ -441,7 +447,7 @@ Here are the differences:
 Checking squares(2,1, 3, 5)
 Your program produced the wrong output!
 Here are the differences:
-##    							      /	#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n /n*/n*
+##    							      /	#*****/n#*****/n *****/n *****/n *****/n *****/n *****/n ****
 ##    							      <
       							      <
  *****							      <
@@ -452,7 +458,7 @@ Here are the differences:
 Checking squares(2,1, 3, 7)
 Your program produced the wrong output!
 Here are the differences:
-##      						      /	#/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n*/n*/n /n*/n*/n*/n*
+##      						      /	#*******/n#*******/n *******/n *******/n *******/n *******/n 
 ##      						      <
         						      <
  *******						      <
@@ -462,105 +468,110 @@ Here are the differences:
  *     *						      <
  *     *						      <
  *******						      <
-Checking squares(2,1, 6, 1)
+Checking squares(2,1, 8, 1)
 Your program produced the wrong output!
 Here are the differences:
-##							      /	#/n*/n#/n*/n /n*/n /n*/n /n*/n /n*/n /n*/n
+##							      /	#*/n#*/n */n */n */n */n */n */n */n
 ##							      <
   							      <
   							      <
   							      <
   							      <
+  							      <
+  							      <
  *							      <
-Checking squares(2,1, 6, 2)
+Checking squares(2,1, 8, 2)
 Your program produced the wrong output!
 Here are the differences:
-## 							      /	#/n*/n*/n#/n*/n*/n /n*/n*/n /n*/n*/n /n*/n*/n /n*/n*/n /n*/n*
+## 							      /	#**/n#**/n **/n **/n **/n **/n **/n **/n **/n **/n
 ## 							      <
    							      <
    							      <
    							      <
    							      <
+   							      <
+   							      <
  **							      <
  **							      <
-Checking squares(2,1, 6, 5)
+Checking squares(2,1, 8, 5)
 Your program produced the wrong output!
 Here are the differences:
-##    							      /	#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n /n*/n*/n*/n*/n*/n /n*/n*
+##    							      /	#*****/n#*****/n *****/n *****/n *****/n *****/n *****/n ****
 ##    							      <
       							      <
       							      <
       							      <
       							      <
+      							      <
+      							      <
  *****							      <
  *   *							      <
  *   *							      <
  *   *							      <
  *****							      <
-Checking squares(2,1, 6, 9)
+Checking squares(2,1, 8, 7)
 Your program produced the wrong output!
 Here are the differences:
-##        						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n 
-##        						      <
-          						      <
-          						      <
-          						      <
-          						      <
- *********						      <
- *       *						      <
- *       *						      <
- *       *						      <
- *       *						      <
- *       *						      <
- *       *						      <
- *       *						      <
- *********						      <
+##      						      /	#*******/n#*******/n *******/n *******/n *******/n *******/n 
+##      						      <
+        						      <
+        						      <
+        						      <
+        						      <
+        						      <
+        						      <
+ *******						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *******						      <
 Checking squares(2,2, 1, 1)
 Your program produced the wrong output!
 Here are the differences:
-## 							      /	#/n#/n*/n#/n#/n*/n
+## 							      /	##*/n##*/n
 ##*							      <
 Checking squares(2,2, 1, 2)
 Your program produced the wrong output!
 Here are the differences:
-##  							      /	#/n#/n*/n*/n#/n#/n*/n*/n /n /n*/n*/n
+##  							      /	##**/n##**/n  **/n
 ##**							      <
   **							      <
 Checking squares(2,2, 1, 5)
 Your program produced the wrong output!
 Here are the differences:
-##     							      /	#/n#/n*/n*/n*/n*/n*/n#/n#/n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*
+##     							      /	##*****/n##*****/n  *****/n  *****/n  *****/n  *****/n
 ##*****							      <
   *   *							      <
   *   *							      <
   *   *							      <
   *****							      <
-Checking squares(2,2, 1, 11)
+Checking squares(2,2, 1, 10)
 Your program produced the wrong output!
 Here are the differences:
-##           						      /	#/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n#/n*/n*/n*/n*/n*/n*
-##***********						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  ***********						      <
+##          						      /	##**********/n##**********/n  **********/n  **********/n  ***
+##**********						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  **********						      <
 Checking squares(2,2, 3, 1)
 Your program produced the wrong output!
 Here are the differences:
-## 							      /	#/n#/n*/n#/n#/n*/n /n /n*/n /n /n*/n
+## 							      /	##*/n##*/n  */n  */n
 ## 							      <
    							      <
   *							      <
 Checking squares(2,2, 3, 2)
 Your program produced the wrong output!
 Here are the differences:
-##  							      /	#/n#/n*/n*/n#/n#/n*/n*/n /n /n*/n*/n /n /n*/n*/n /n /n*/n*/n
+##  							      /	##**/n##**/n  **/n  **/n  **/n
 ##  							      <
     							      <
   **							      <
@@ -568,7 +579,7 @@ Here are the differences:
 Checking squares(2,2, 3, 5)
 Your program produced the wrong output!
 Here are the differences:
-##     							      /	#/n#/n*/n*/n*/n*/n*/n#/n#/n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*
+##     							      /	##*****/n##*****/n  *****/n  *****/n  *****/n  *****/n  *****
 ##     							      <
        							      <
   *****							      <
@@ -576,27 +587,25 @@ Here are the differences:
   *   *							      <
   *   *							      <
   *****							      <
-Checking squares(2,2, 3, 11)
+Checking squares(2,2, 3, 9)
 Your program produced the wrong output!
 Here are the differences:
-##           						      /	#/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n#/n*/n*/n*/n*/n*/n*
-##           						      <
-             						      <
-  ***********						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  ***********						      <
+##         						      /	##*********/n##*********/n  *********/n  *********/n  *******
+##         						      <
+           						      <
+  *********						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *********						      <
 Checking squares(2,2, 7, 1)
 Your program produced the wrong output!
 Here are the differences:
-## 							      /	#/n#/n*/n#/n#/n*/n /n /n*/n /n /n*/n /n /n*/n /n /n*/n /n /n*
+## 							      /	##*/n##*/n  */n  */n  */n  */n  */n  */n
 ## 							      <
    							      <
    							      <
@@ -607,7 +616,7 @@ Here are the differences:
 Checking squares(2,2, 7, 2)
 Your program produced the wrong output!
 Here are the differences:
-##  							      /	#/n#/n*/n*/n#/n#/n*/n*/n /n /n*/n*/n /n /n*/n*/n /n /n*/n*/n 
+##  							      /	##**/n##**/n  **/n  **/n  **/n  **/n  **/n  **/n  **/n
 ##  							      <
     							      <
     							      <
@@ -619,7 +628,7 @@ Here are the differences:
 Checking squares(2,2, 7, 5)
 Your program produced the wrong output!
 Here are the differences:
-##     							      /	#/n#/n*/n*/n*/n*/n*/n#/n#/n*/n*/n*/n*/n*/n /n /n*/n*/n*/n*/n*
+##     							      /	##*****/n##*****/n  *****/n  *****/n  *****/n  *****/n  *****
 ##     							      <
        							      <
        							      <
@@ -631,191 +640,204 @@ Here are the differences:
   *   *							      <
   *   *							      <
   *****							      <
-Checking squares(2,2, 7, 7)
+Checking squares(2,2, 7, 8)
 Your program produced the wrong output!
 Here are the differences:
-##       						      /	#/n#/n*/n*/n*/n*/n*/n*/n*/n#/n#/n*/n*/n*/n*/n*/n*/n*/n /n /n*
-##       						      <
-         						      <
-         						      <
-         						      <
-         						      <
-         						      <
-  *******						      <
-  *     *						      <
-  *     *						      <
-  *     *						      <
-  *     *						      <
-  *     *						      <
-  *******						      <
-Checking squares(2,4, 1, 1)
+##        						      /	##********/n##********/n  ********/n  ********/n  ********/n 
+##        						      <
+          						      <
+          						      <
+          						      <
+          						      <
+          						      <
+  ********						      <
+  *      *						      <
+  *      *						      <
+  *      *						      <
+  *      *						      <
+  *      *						      <
+  *      *						      <
+  ********						      <
+Checking squares(2,3, 1, 1)
 Your program produced the wrong output!
 Here are the differences:
-##   							      /	#/n#/n /n /n*/n#/n#/n /n /n*/n
-##  *							      <
-Checking squares(2,4, 1, 2)
+##  							      /	## */n## */n
+## *							      <
+Checking squares(2,3, 1, 2)
 Your program produced the wrong output!
 Here are the differences:
-##    							      /	#/n#/n /n /n*/n*/n#/n#/n /n /n*/n*/n /n /n /n /n*/n*/n
-##  **							      <
-    **							      <
-Checking squares(2,4, 1, 5)
+##   							      /	## **/n## **/n   **/n
+## **							      <
+   **							      <
+Checking squares(2,3, 1, 5)
 Your program produced the wrong output!
 Here are the differences:
-##       						      /	#/n#/n /n /n*/n*/n*/n*/n*/n#/n#/n /n /n*/n*/n*/n*/n*/n /n /n 
-##  *****						      <
-    *   *						      <
-    *   *						      <
-    *   *						      <
-    *****						      <
-Checking squares(2,4, 1, 9)
+##      						      /	## *****/n## *****/n   *****/n   *****/n   *****/n   *****/n
+## *****						      <
+   *   *						      <
+   *   *						      <
+   *   *						      <
+   *****						      <
+Checking squares(2,3, 1, 10)
 Your program produced the wrong output!
 Here are the differences:
-##           						      /	#/n#/n /n /n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n#/n /n /n*/n*/n*/n*
-##  *********						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *********						      <
-Checking squares(2,4, 3, 1)
+##           						      /	## **********/n## **********/n   **********/n   **********/n 
+## **********						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   **********						      <
+Checking squares(2,3, 3, 1)
 Your program produced the wrong output!
 Here are the differences:
-##   							      /	#/n#/n /n /n*/n#/n#/n /n /n*/n /n /n /n /n*/n /n /n /n /n*/n
+##  							      /	## */n## */n   */n   */n
+##  							      <
+    							      <
+   *							      <
+Checking squares(2,3, 3, 2)
+Your program produced the wrong output!
+Here are the differences:
+##   							      /	## **/n## **/n   **/n   **/n   **/n
 ##   							      <
      							      <
-    *							      <
-Checking squares(2,4, 3, 2)
+   **							      <
+   **							      <
+Checking squares(2,3, 3, 5)
 Your program produced the wrong output!
 Here are the differences:
-##    							      /	#/n#/n /n /n*/n*/n#/n#/n /n /n*/n*/n /n /n /n /n*/n*/n /n /n 
-##    							      <
-      							      <
-    **							      <
-    **							      <
-Checking squares(2,4, 3, 5)
+##      						      /	## *****/n## *****/n   *****/n   *****/n   *****/n   *****/n 
+##      						      <
+        						      <
+   *****						      <
+   *   *						      <
+   *   *						      <
+   *   *						      <
+   *****						      <
+Checking squares(2,3, 3, 10)
 Your program produced the wrong output!
 Here are the differences:
-##       						      /	#/n#/n /n /n*/n*/n*/n*/n*/n#/n#/n /n /n*/n*/n*/n*/n*/n /n /n 
-##       						      <
-         						      <
-    *****						      <
-    *   *						      <
-    *   *						      <
-    *   *						      <
-    *****						      <
-Checking squares(2,4, 3, 9)
-Your program produced the wrong output!
-Here are the differences:
-##           						      /	#/n#/n /n /n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n#/n /n /n*/n*/n*/n*
+##           						      /	## **********/n## **********/n   **********/n   **********/n 
 ##           						      <
              						      <
-    *********						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *********						      <
-Checking squares(2,4, 5, 1)
+   **********						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   *        *						      <
+   **********						      <
+Checking squares(2,3, 8, 1)
 Your program produced the wrong output!
 Here are the differences:
-##   							      /	#/n#/n /n /n*/n#/n#/n /n /n*/n /n /n /n /n*/n /n /n /n /n*/n 
+##  							      /	## */n## */n   */n   */n   */n   */n   */n   */n   */n
+##  							      <
+    							      <
+    							      <
+    							      <
+    							      <
+    							      <
+    							      <
+   *							      <
+Checking squares(2,3, 8, 2)
+Your program produced the wrong output!
+Here are the differences:
+##   							      /	## **/n## **/n   **/n   **/n   **/n   **/n   **/n   **/n   **
 ##   							      <
      							      <
      							      <
      							      <
-    *							      <
-Checking squares(2,4, 5, 2)
+     							      <
+     							      <
+     							      <
+   **							      <
+   **							      <
+Checking squares(2,3, 8, 5)
 Your program produced the wrong output!
 Here are the differences:
-##    							      /	#/n#/n /n /n*/n*/n#/n#/n /n /n*/n*/n /n /n /n /n*/n*/n /n /n 
-##    							      <
-      							      <
-      							      <
-      							      <
-    **							      <
-    **							      <
-Checking squares(2,4, 5, 5)
+##      						      /	## *****/n## *****/n   *****/n   *****/n   *****/n   *****/n 
+##      						      <
+        						      <
+        						      <
+        						      <
+        						      <
+        						      <
+        						      <
+   *****						      <
+   *   *						      <
+   *   *						      <
+   *   *						      <
+   *****						      <
+Checking squares(2,3, 8, 9)
 Your program produced the wrong output!
 Here are the differences:
-##       						      /	#/n#/n /n /n*/n*/n*/n*/n*/n#/n#/n /n /n*/n*/n*/n*/n*/n /n /n 
-##       						      <
-         						      <
-         						      <
-         						      <
-    *****						      <
-    *   *						      <
-    *   *						      <
-    *   *						      <
-    *****						      <
-Checking squares(2,4, 5, 10)
-Your program produced the wrong output!
-Here are the differences:
-##            						      /	#/n#/n /n /n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n#/n /n /n*/n*/n*
-##            						      <
-              						      <
-              						      <
-              						      <
-    **********						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    **********						      <
+##          						      /	## *********/n## *********/n   *********/n   *********/n   **
+##          						      <
+            						      <
+            						      <
+            						      <
+            						      <
+            						      <
+            						      <
+   *********						      <
+   *       *						      <
+   *       *						      <
+   *       *						      <
+   *       *						      <
+   *       *						      <
+   *       *						      <
+   *       *						      <
+   *********						      <
 Checking squares(3,1, 1, 1)
 Your program produced the wrong output!
 Here are the differences:
-###							      /	#/n*/n#/n#/n*/n#/n#/n*/n#/n
+###							      /	#*#/n#*#/n#*#/n
 #*#							      <
 ###							      <
 Checking squares(3,1, 1, 2)
 Your program produced the wrong output!
 Here are the differences:
-###							      /	#/n*/n*/n#/n*/n*/n#/n*/n*/n
+###							      /	#**/n#**/n#**/n
 #**							      <
 #**							      <
 Checking squares(3,1, 1, 5)
 Your program produced the wrong output!
 Here are the differences:
-###   							      /	#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n /n*/n*
+###   							      /	#*****/n#*****/n#*****/n *****/n *****/n *****/n
 #*****							      <
 #*#  *							      <
  *   *							      <
  *   *							      <
  *****							      <
-Checking squares(3,1, 1, 8)
+Checking squares(3,1, 1, 7)
 Your program produced the wrong output!
 Here are the differences:
-###      						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*
-#********						      <
-#*#     *						      <
- *      *						      <
- *      *						      <
- *      *						      <
- *      *						      <
- *      *						      <
- ********						      <
+###     						      /	#*******/n#*******/n#*******/n *******/n *******/n *******/n 
+#*******						      <
+#*#    *						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *     *						      <
+ *******						      <
 Checking squares(3,1, 3, 1)
 Your program produced the wrong output!
 Here are the differences:
-###							      /	#/n*/n#/n#/n*/n#/n#/n*/n#/n /n*/n /n
+###							      /	#*#/n#*#/n#*#/n * /n
 # #							      <
 ###							      <
  * 							      <
 Checking squares(3,1, 3, 2)
 Your program produced the wrong output!
 Here are the differences:
-###							      /	#/n*/n*/n#/n*/n*/n#/n*/n*/n /n*/n*/n /n*/n*/n
+###							      /	#**/n#**/n#**/n **/n **/n
 # #							      <
 ###							      <
  **							      <
@@ -823,7 +845,7 @@ Here are the differences:
 Checking squares(3,1, 3, 5)
 Your program produced the wrong output!
 Here are the differences:
-###   							      /	#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n /n*/n*
+###   							      /	#*****/n#*****/n#*****/n *****/n *****/n *****/n *****/n ****
 # #   							      <
 ###   							      <
  *****							      <
@@ -834,7 +856,7 @@ Here are the differences:
 Checking squares(3,1, 3, 11)
 Your program produced the wrong output!
 Here are the differences:
-###         						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n*/n*/n*
+###         						      /	#***********/n#***********/n#***********/n ***********/n ****
 # #         						      <
 ###         						      <
  ***********						      <
@@ -851,7 +873,7 @@ Here are the differences:
 Checking squares(3,1, 5, 1)
 Your program produced the wrong output!
 Here are the differences:
-###							      /	#/n*/n#/n#/n*/n#/n#/n*/n#/n /n*/n /n /n*/n /n /n*/n /n
+###							      /	#*#/n#*#/n#*#/n * /n * /n * /n
 # #							      <
 ###							      <
    							      <
@@ -860,7 +882,7 @@ Here are the differences:
 Checking squares(3,1, 5, 2)
 Your program produced the wrong output!
 Here are the differences:
-###							      /	#/n*/n*/n#/n*/n*/n#/n*/n*/n /n*/n*/n /n*/n*/n /n*/n*/n /n*/n*
+###							      /	#**/n#**/n#**/n **/n **/n **/n **/n
 # #							      <
 ###							      <
    							      <
@@ -870,7 +892,7 @@ Here are the differences:
 Checking squares(3,1, 5, 5)
 Your program produced the wrong output!
 Here are the differences:
-###   							      /	#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n /n*/n*
+###   							      /	#*****/n#*****/n#*****/n *****/n *****/n *****/n *****/n ****
 # #   							      <
 ###   							      <
       							      <
@@ -880,65 +902,68 @@ Here are the differences:
  *   *							      <
  *   *							      <
  *****							      <
-Checking squares(3,1, 5, 7)
+Checking squares(3,1, 5, 9)
 Your program produced the wrong output!
 Here are the differences:
-###     						      /	#/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*
-# #     						      <
-###     						      <
-        						      <
-        						      <
- *******						      <
- *     *						      <
- *     *						      <
- *     *						      <
- *     *						      <
- *     *						      <
- *******						      <
+###       						      /	#*********/n#*********/n#*********/n *********/n *********/n 
+# #       						      <
+###       						      <
+          						      <
+          						      <
+ *********						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *********						      <
 Checking squares(3,2, 1, 1)
 Your program produced the wrong output!
 Here are the differences:
-###							      /	#/n#/n*/n#/n /n*/n#/n#/n*/n
+###							      /	##*/n# */n##*/n
 # *							      <
 ###							      <
 Checking squares(3,2, 1, 2)
 Your program produced the wrong output!
 Here are the differences:
-### 							      /	#/n#/n*/n*/n#/n /n*/n*/n#/n#/n*/n*/n
+### 							      /	##**/n# **/n##**/n
 # **							      <
 ##**							      <
 Checking squares(3,2, 1, 5)
 Your program produced the wrong output!
 Here are the differences:
-###    							      /	#/n#/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n#/n#/n*/n*/n*/n*/n*
+###    							      /	##*****/n# *****/n##*****/n  *****/n  *****/n  *****/n
 # *****							      <
 ##*   *							      <
   *   *							      <
   *   *							      <
   *****							      <
-Checking squares(3,2, 1, 8)
+Checking squares(3,2, 1, 9)
 Your program produced the wrong output!
 Here are the differences:
-###       						      /	#/n#/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n*/n*/n*/n#
-# ********						      <
-##*      *						      <
-  *      *						      <
-  *      *						      <
-  *      *						      <
-  *      *						      <
-  *      *						      <
-  ********						      <
+###        						      /	##*********/n# *********/n##*********/n  *********/n  *******
+# *********						      <
+##*       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *       *						      <
+  *********						      <
 Checking squares(3,2, 3, 1)
 Your program produced the wrong output!
 Here are the differences:
-###							      /	#/n#/n*/n#/n /n*/n#/n#/n*/n /n /n*/n
+###							      /	##*/n# */n##*/n  */n
 # #							      <
 ###							      <
   *							      <
 Checking squares(3,2, 3, 2)
 Your program produced the wrong output!
 Here are the differences:
-### 							      /	#/n#/n*/n*/n#/n /n*/n*/n#/n#/n*/n*/n /n /n*/n*/n /n /n*/n*/n
+### 							      /	##**/n# **/n##**/n  **/n  **/n
 # # 							      <
 ### 							      <
   **							      <
@@ -946,7 +971,7 @@ Here are the differences:
 Checking squares(3,2, 3, 5)
 Your program produced the wrong output!
 Here are the differences:
-###    							      /	#/n#/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n#/n#/n*/n*/n*/n*/n*
+###    							      /	##*****/n# *****/n##*****/n  *****/n  *****/n  *****/n  *****
 # #    							      <
 ###    							      <
   *****							      <
@@ -957,7 +982,7 @@ Here are the differences:
 Checking squares(3,2, 3, 10)
 Your program produced the wrong output!
 Here are the differences:
-###         						      /	#/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n*/n*
+###         						      /	##**********/n# **********/n##**********/n  **********/n  ***
 # #         						      <
 ###         						      <
   **********						      <
@@ -970,46 +995,50 @@ Here are the differences:
   *        *						      <
   *        *						      <
   **********						      <
-Checking squares(3,2, 5, 1)
+Checking squares(3,2, 6, 1)
 Your program produced the wrong output!
 Here are the differences:
-###							      /	#/n#/n*/n#/n /n*/n#/n#/n*/n /n /n*/n /n /n*/n /n /n*/n
+###							      /	##*/n# */n##*/n  */n  */n  */n  */n
 # #							      <
 ###							      <
    							      <
    							      <
+   							      <
   *							      <
-Checking squares(3,2, 5, 2)
+Checking squares(3,2, 6, 2)
 Your program produced the wrong output!
 Here are the differences:
-### 							      /	#/n#/n*/n*/n#/n /n*/n*/n#/n#/n*/n*/n /n /n*/n*/n /n /n*/n*/n 
+### 							      /	##**/n# **/n##**/n  **/n  **/n  **/n  **/n  **/n
 # # 							      <
 ### 							      <
     							      <
     							      <
+    							      <
   **							      <
   **							      <
-Checking squares(3,2, 5, 5)
+Checking squares(3,2, 6, 5)
 Your program produced the wrong output!
 Here are the differences:
-###    							      /	#/n#/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n#/n#/n*/n*/n*/n*/n*
+###    							      /	##*****/n# *****/n##*****/n  *****/n  *****/n  *****/n  *****
 # #    							      <
 ###    							      <
        							      <
        							      <
+       							      <
   *****							      <
   *   *							      <
   *   *							      <
   *   *							      <
   *****							      <
-Checking squares(3,2, 5, 9)
+Checking squares(3,2, 6, 9)
 Your program produced the wrong output!
 Here are the differences:
-###        						      /	#/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n*/n*/n*
+###        						      /	##*********/n# *********/n##*********/n  *********/n  *******
 # #        						      <
 ###        						      <
            						      <
            						      <
+           						      <
   *********						      <
   *       *						      <
   *       *						      <
@@ -1019,524 +1048,106 @@ Here are the differences:
   *       *						      <
   *       *						      <
   *********						      <
-Checking squares(3,5, 1, 1)
+Checking squares(3,4, 1, 1)
 Your program produced the wrong output!
 Here are the differences:
-###   							      /	#/n#/n#/n /n /n*/n#/n /n#/n /n /n*/n#/n#/n#/n /n /n*/n
-# #  *							      <
-###   							      <
-Checking squares(3,5, 1, 2)
+###  							      /	### */n# # */n### */n
+# # *							      <
+###  							      <
+Checking squares(3,4, 1, 2)
 Your program produced the wrong output!
 Here are the differences:
-###    							      /	#/n#/n#/n /n /n*/n*/n#/n /n#/n /n /n*/n*/n#/n#/n#/n /n /n*/n*
-# #  **							      <
-###  **							      <
-Checking squares(3,5, 1, 5)
+###   							      /	### **/n# # **/n### **/n
+# # **							      <
+### **							      <
+Checking squares(3,4, 1, 5)
 Your program produced the wrong output!
 Here are the differences:
-###       						      /	#/n#/n#/n /n /n*/n*/n*/n*/n*/n#/n /n#/n /n /n*/n*/n*/n*/n*/n#
-# #  *****						      <
-###  *   *						      <
-     *   *						      <
-     *   *						      <
-     *****						      <
-Checking squares(3,5, 1, 11)
-Your program produced the wrong output!
-Here are the differences:
-###             					      /	#/n#/n#/n /n /n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n#/n /n 
-# #  ***********					      <
-###  *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     ***********					      <
-Checking squares(3,5, 3, 1)
-Your program produced the wrong output!
-Here are the differences:
-###   							      /	#/n#/n#/n /n /n*/n#/n /n#/n /n /n*/n#/n#/n#/n /n /n*/n /n /n 
-# #   							      <
-###   							      <
-     *							      <
-Checking squares(3,5, 3, 2)
-Your program produced the wrong output!
-Here are the differences:
-###    							      /	#/n#/n#/n /n /n*/n*/n#/n /n#/n /n /n*/n*/n#/n#/n#/n /n /n*/n*
-# #    							      <
-###    							      <
-     **							      <
-     **							      <
-Checking squares(3,5, 3, 5)
-Your program produced the wrong output!
-Here are the differences:
-###       						      /	#/n#/n#/n /n /n*/n*/n*/n*/n*/n#/n /n#/n /n /n*/n*/n*/n*/n*/n#
-# #       						      <
-###       						      <
-     *****						      <
-     *   *						      <
-     *   *						      <
-     *   *						      <
-     *****						      <
-Checking squares(3,5, 3, 11)
-Your program produced the wrong output!
-Here are the differences:
-###             					      /	#/n#/n#/n /n /n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n#/n /n 
-# #             					      <
-###             					      <
-     ***********					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     *         *					      <
-     ***********					      <
-Checking squares(3,5, 6, 1)
-Your program produced the wrong output!
-Here are the differences:
-###   							      /	#/n#/n#/n /n /n*/n#/n /n#/n /n /n*/n#/n#/n#/n /n /n*/n /n /n 
-# #   							      <
-###   							      <
-      							      <
-      							      <
-      							      <
-     *							      <
-Checking squares(3,5, 6, 2)
-Your program produced the wrong output!
-Here are the differences:
-###    							      /	#/n#/n#/n /n /n*/n*/n#/n /n#/n /n /n*/n*/n#/n#/n#/n /n /n*/n*
-# #    							      <
-###    							      <
-       							      <
-       							      <
-       							      <
-     **							      <
-     **							      <
-Checking squares(3,5, 6, 5)
-Your program produced the wrong output!
-Here are the differences:
-###       						      /	#/n#/n#/n /n /n*/n*/n*/n*/n*/n#/n /n#/n /n /n*/n*/n*/n*/n*/n#
-# #       						      <
-###       						      <
-          						      <
-          						      <
-          						      <
-     *****						      <
-     *   *						      <
-     *   *						      <
-     *   *						      <
-     *****						      <
-Checking squares(3,5, 6, 9)
-Your program produced the wrong output!
-Here are the differences:
-###           						      /	#/n#/n#/n /n /n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n#/n /n /n*/n*
-# #           						      <
-###           						      <
-              						      <
-              						      <
-              						      <
-     *********						      <
-     *       *						      <
-     *       *						      <
-     *       *						      <
-     *       *						      <
-     *       *						      <
-     *       *						      <
-     *       *						      <
-     *********						      <
-Checking squares(5,1, 1, 1)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n*/n#/n#/n#/n#/n*/n /n /n#/n#/n*/n /n /n#/n#/n*/n /n /n#/n#
-#*  #							      <
-#   #							      <
-#   #							      <
-#####							      <
-Checking squares(5,1, 1, 2)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n*/n*/n#/n#/n#/n*/n*/n /n#/n#/n*/n*/n /n#/n#/n*/n*/n /n#/n#
-#** #							      <
-#** #							      <
-#   #							      <
-#####							      <
-Checking squares(5,1, 1, 5)
-Your program produced the wrong output!
-Here are the differences:
-##### 							      /	#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n#/n*/n*
-#*****							      <
-#*  #*							      <
-#*  #*							      <
-#*###*							      <
- *****							      <
-Checking squares(5,1, 1, 10)
-Your program produced the wrong output!
-Here are the differences:
-#####      						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*
-#**********						      <
-#*  #     *						      <
-#*  #     *						      <
-#*###     *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- **********						      <
-Checking squares(5,1, 3, 1)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n*/n#/n#/n#/n#/n*/n /n /n#/n#/n*/n /n /n#/n#/n*/n /n /n#/n#
-#   #							      <
-#   #							      <
-#*  #							      <
-#####							      <
-Checking squares(5,1, 3, 2)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n*/n*/n#/n#/n#/n*/n*/n /n#/n#/n*/n*/n /n#/n#/n*/n*/n /n#/n#
-#   #							      <
-#   #							      <
-#** #							      <
-#**##							      <
-Checking squares(5,1, 3, 5)
-Your program produced the wrong output!
-Here are the differences:
-##### 							      /	#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n#/n*/n*
-#   # 							      <
-#   # 							      <
-#*****							      <
-#*###*							      <
- *   *							      <
- *   *							      <
- *****							      <
-Checking squares(5,1, 3, 11)
-Your program produced the wrong output!
-Here are the differences:
-#####       						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n*/n*/n*
-#   #       						      <
-#   #       						      <
-#***********						      <
-#*###      *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- *         *						      <
- ***********						      <
-Checking squares(5,1, 5, 1)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n*/n#/n#/n#/n#/n*/n /n /n#/n#/n*/n /n /n#/n#/n*/n /n /n#/n#
-#   #							      <
-#   #							      <
-#   #							      <
-#####							      <
- *   							      <
-Checking squares(5,1, 5, 2)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n*/n*/n#/n#/n#/n*/n*/n /n#/n#/n*/n*/n /n#/n#/n*/n*/n /n#/n#
-#   #							      <
-#   #							      <
-#   #							      <
-#####							      <
- **  							      <
- **  							      <
-Checking squares(5,1, 5, 5)
-Your program produced the wrong output!
-Here are the differences:
-##### 							      /	#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n#/n*/n*
-#   # 							      <
-#   # 							      <
-#   # 							      <
-##### 							      <
- *****							      <
- *   *							      <
- *   *							      <
- *   *							      <
- *****							      <
-Checking squares(5,1, 5, 10)
-Your program produced the wrong output!
-Here are the differences:
-#####      						      /	#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*
-#   #      						      <
-#   #      						      <
-#   #      						      <
-#####      						      <
- **********						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- *        *						      <
- **********						      <
-Checking squares(5,2, 1, 1)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n#/n*/n#/n#/n#/n /n*/n /n#/n#/n /n*/n /n#/n#/n /n*/n /n#/n#
-# * #							      <
-#   #							      <
-#   #							      <
-#####							      <
-Checking squares(5,2, 1, 2)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n#/n*/n*/n#/n#/n /n*/n*/n#/n#/n /n*/n*/n#/n#/n /n*/n*/n#/n#
-# **#							      <
-# **#							      <
-#   #							      <
-#####							      <
-Checking squares(5,2, 1, 5)
-Your program produced the wrong output!
-Here are the differences:
-#####  							      /	#/n#/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*
-# *****							      <
-# * # *							      <
-# * # *							      <
-##*## *							      <
-  *****							      <
-Checking squares(5,2, 1, 11)
-Your program produced the wrong output!
-Here are the differences:
-#####        						      /	#/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n*
-# ***********						      <
-# * #       *						      <
-# * #       *						      <
-##*##       *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  ***********						      <
-Checking squares(5,2, 3, 1)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n#/n*/n#/n#/n#/n /n*/n /n#/n#/n /n*/n /n#/n#/n /n*/n /n#/n#
-#   #							      <
-#   #							      <
-# * #							      <
-#####							      <
-Checking squares(5,2, 3, 2)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n#/n*/n*/n#/n#/n /n*/n*/n#/n#/n /n*/n*/n#/n#/n /n*/n*/n#/n#
-#   #							      <
-#   #							      <
-# **#							      <
-##**#							      <
-Checking squares(5,2, 3, 5)
-Your program produced the wrong output!
-Here are the differences:
-#####  							      /	#/n#/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*
-#   #  							      <
-#   #  							      <
-# *****							      <
-##*## *							      <
-  *   *							      <
-  *   *							      <
-  *****							      <
-Checking squares(5,2, 3, 11)
-Your program produced the wrong output!
-Here are the differences:
-#####        						      /	#/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n*
-#   #        						      <
-#   #        						      <
-# ***********						      <
-##*##       *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  *         *						      <
-  ***********						      <
-Checking squares(5,2, 7, 1)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n#/n*/n#/n#/n#/n /n*/n /n#/n#/n /n*/n /n#/n#/n /n*/n /n#/n#
-#   #							      <
-#   #							      <
-#   #							      <
-#####							      <
-     							      <
-     							      <
-  *  							      <
-Checking squares(5,2, 7, 2)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n#/n*/n*/n#/n#/n /n*/n*/n#/n#/n /n*/n*/n#/n#/n /n*/n*/n#/n#
-#   #							      <
-#   #							      <
-#   #							      <
-#####							      <
-     							      <
-     							      <
-  ** 							      <
-  ** 							      <
-Checking squares(5,2, 7, 5)
-Your program produced the wrong output!
-Here are the differences:
-#####  							      /	#/n#/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*
-#   #  							      <
-#   #  							      <
-#   #  							      <
-#####  							      <
-       							      <
-       							      <
-  *****							      <
-  *   *							      <
-  *   *							      <
-  *   *							      <
-  *****							      <
-Checking squares(5,2, 7, 10)
-Your program produced the wrong output!
-Here are the differences:
-#####       						      /	#/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n*/n*/n*/n*/n*/n*/n*
-#   #       						      <
-#   #       						      <
-#   #       						      <
-#####       						      <
-            						      <
-            						      <
-  **********						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  *        *						      <
-  **********						      <
-Checking squares(5,4, 1, 1)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n#/n#/n#/n*/n#/n /n /n /n*/n#/n /n /n /n*/n#/n /n /n /n*/n#
-#   *							      <
-#   #							      <
-#   #							      <
-#####							      <
-Checking squares(5,4, 1, 2)
-Your program produced the wrong output!
-Here are the differences:
-##### 							      /	#/n#/n#/n#/n*/n*/n#/n /n /n /n*/n*/n#/n /n /n /n*/n*/n#/n /n 
-#   **							      <
-#   **							      <
-#   # 							      <
-##### 							      <
-Checking squares(5,4, 1, 5)
-Your program produced the wrong output!
-Here are the differences:
-#####    						      /	#/n#/n#/n#/n*/n*/n*/n*/n*/n#/n /n /n /n*/n*/n*/n*/n*/n#/n /n 
-#   *****						      <
-#   *   *						      <
-#   *   *						      <
-####*   *						      <
-    *****						      <
-Checking squares(5,4, 1, 9)
-Your program produced the wrong output!
-Here are the differences:
-#####        						      /	#/n#/n#/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n /n /n*/n*/n*/n*
-#   *********						      <
-#   *       *						      <
-#   *       *						      <
-####*       *						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *       *						      <
-    *********						      <
-Checking squares(5,4, 3, 1)
-Your program produced the wrong output!
-Here are the differences:
-#####							      /	#/n#/n#/n#/n*/n#/n /n /n /n*/n#/n /n /n /n*/n#/n /n /n /n*/n#
-#   #							      <
-#   #							      <
-#   *							      <
-#####							      <
-Checking squares(5,4, 3, 2)
-Your program produced the wrong output!
-Here are the differences:
-##### 							      /	#/n#/n#/n#/n*/n*/n#/n /n /n /n*/n*/n#/n /n /n /n*/n*/n#/n /n 
-#   # 							      <
-#   # 							      <
-#   **							      <
-####**							      <
-Checking squares(5,4, 3, 5)
-Your program produced the wrong output!
-Here are the differences:
-#####    						      /	#/n#/n#/n#/n*/n*/n*/n*/n*/n#/n /n /n /n*/n*/n*/n*/n*/n#/n /n 
-#   #    						      <
-#   #    						      <
-#   *****						      <
-####*   *						      <
+###      						      /	### *****/n# # *****/n### *****/n    *****/n    *****/n    **
+# # *****						      <
+### *   *						      <
     *   *						      <
     *   *						      <
     *****						      <
-Checking squares(5,4, 3, 7)
+Checking squares(3,4, 1, 8)
 Your program produced the wrong output!
 Here are the differences:
-#####      						      /	#/n#/n#/n#/n*/n*/n*/n*/n*/n*/n*/n#/n /n /n /n*/n*/n*/n*/n*/n*
-#   #      						      <
-#   #      						      <
-#   *******						      <
-####*     *						      <
-    *     *						      <
-    *     *						      <
-    *     *						      <
-    *     *						      <
-    *******						      <
-Checking squares(5,4, 8, 1)
+###         						      /	### ********/n# # ********/n### ********/n    ********/n    *
+# # ********						      <
+### *      *						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    ********						      <
+Checking squares(3,4, 3, 1)
 Your program produced the wrong output!
 Here are the differences:
-#####							      /	#/n#/n#/n#/n*/n#/n /n /n /n*/n#/n /n /n /n*/n#/n /n /n /n*/n#
-#   #							      <
-#   #							      <
-#   #							      <
-#####							      <
+###  							      /	### */n# # */n### */n    */n
+# #  							      <
+###  							      <
+    *							      <
+Checking squares(3,4, 3, 2)
+Your program produced the wrong output!
+Here are the differences:
+###   							      /	### **/n# # **/n### **/n    **/n    **/n
+# #   							      <
+###   							      <
+    **							      <
+    **							      <
+Checking squares(3,4, 3, 5)
+Your program produced the wrong output!
+Here are the differences:
+###      						      /	### *****/n# # *****/n### *****/n    *****/n    *****/n    **
+# #      						      <
+###      						      <
+    *****						      <
+    *   *						      <
+    *   *						      <
+    *   *						      <
+    *****						      <
+Checking squares(3,4, 3, 8)
+Your program produced the wrong output!
+Here are the differences:
+###         						      /	### ********/n# # ********/n### ********/n    ********/n    *
+# #         						      <
+###         						      <
+    ********						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    ********						      <
+Checking squares(3,4, 6, 1)
+Your program produced the wrong output!
+Here are the differences:
+###  							      /	### */n# # */n### */n    */n    */n    */n    */n
+# #  							      <
+###  							      <
      							      <
      							      <
      							      <
     *							      <
-Checking squares(5,4, 8, 2)
+Checking squares(3,4, 6, 2)
 Your program produced the wrong output!
 Here are the differences:
-##### 							      /	#/n#/n#/n#/n*/n*/n#/n /n /n /n*/n*/n#/n /n /n /n*/n*/n#/n /n 
-#   # 							      <
-#   # 							      <
-#   # 							      <
-##### 							      <
+###   							      /	### **/n# # **/n### **/n    **/n    **/n    **/n    **/n    *
+# #   							      <
+###   							      <
       							      <
       							      <
       							      <
     **							      <
     **							      <
-Checking squares(5,4, 8, 5)
+Checking squares(3,4, 6, 5)
 Your program produced the wrong output!
 Here are the differences:
-#####    						      /	#/n#/n#/n#/n*/n*/n*/n*/n*/n#/n /n /n /n*/n*/n*/n*/n*/n#/n /n 
-#   #    						      <
-#   #    						      <
-#   #    						      <
-#####    						      <
+###      						      /	### *****/n# # *****/n### *****/n    *****/n    *****/n    **
+# #      						      <
+###      						      <
          						      <
          						      <
          						      <
@@ -1545,27 +1156,442 @@ Here are the differences:
     *   *						      <
     *   *						      <
     *****						      <
-Checking squares(5,4, 8, 10)
+Checking squares(3,4, 6, 8)
 Your program produced the wrong output!
 Here are the differences:
-#####         						      /	#/n#/n#/n#/n*/n*/n*/n*/n*/n*/n*/n*/n*/n*/n#/n /n /n /n*/n*/n*
-#   #         						      <
-#   #         						      <
-#   #         						      <
-#####         						      <
-              						      <
-              						      <
-              						      <
-    **********						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    *        *						      <
-    **********						      <
+###         						      /	### ********/n# # ********/n### ********/n    ********/n    *
+# #         						      <
+###         						      <
+            						      <
+            						      <
+            						      <
+    ********						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    *      *						      <
+    ********						      <
+Checking squares(7,1, 1, 1)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#*#####/n#*    #/n#*    #/n#*    #/n#*    #/n#*    #/n#*#####
+#*    #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#######							      <
+Checking squares(7,1, 1, 2)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#**####/n#**   #/n#**   #/n#**   #/n#**   #/n#**   #/n#**####
+#**   #							      <
+#**   #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#######							      <
+Checking squares(7,1, 1, 5)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#*****#/n#*****#/n#*****#/n#*****#/n#*****#/n#*****#/n#*****#
+#*****#							      <
+#*   *#							      <
+#*   *#							      <
+#*   *#							      <
+#*****#							      <
+#######							      <
+Checking squares(7,1, 1, 9)
+Your program produced the wrong output!
+Here are the differences:
+#######   						      /	#*********/n#*********/n#*********/n#*********/n#*********/n#
+#*********						      <
+#*    #  *						      <
+#*    #  *						      <
+#*    #  *						      <
+#*    #  *						      <
+#*#####  *						      <
+ *       *						      <
+ *       *						      <
+ *********						      <
+Checking squares(7,1, 3, 1)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#*#####/n#*    #/n#*    #/n#*    #/n#*    #/n#*    #/n#*#####
+#     #							      <
+#     #							      <
+#*    #							      <
+#     #							      <
+#     #							      <
+#######							      <
+Checking squares(7,1, 3, 2)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#**####/n#**   #/n#**   #/n#**   #/n#**   #/n#**   #/n#**####
+#     #							      <
+#     #							      <
+#**   #							      <
+#**   #							      <
+#     #							      <
+#######							      <
+Checking squares(7,1, 3, 5)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#*****#/n#*****#/n#*****#/n#*****#/n#*****#/n#*****#/n#*****#
+#     #							      <
+#     #							      <
+#*****#							      <
+#*   *#							      <
+#*   *#							      <
+#*###*#							      <
+ ***** 							      <
+Checking squares(7,1, 3, 8)
+Your program produced the wrong output!
+Here are the differences:
+#######  						      /	#********/n#********/n#********/n#********/n#********/n#*****
+#     #  						      <
+#     #  						      <
+#********						      <
+#*    # *						      <
+#*    # *						      <
+#*##### *						      <
+ *      *						      <
+ *      *						      <
+ *      *						      <
+ ********						      <
+Checking squares(7,1, 5, 1)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#*#####/n#*    #/n#*    #/n#*    #/n#*    #/n#*    #/n#*#####
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#*    #							      <
+#######							      <
+Checking squares(7,1, 5, 2)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#**####/n#**   #/n#**   #/n#**   #/n#**   #/n#**   #/n#**####
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#**   #							      <
+#**####							      <
+Checking squares(7,1, 5, 5)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#*****#/n#*****#/n#*****#/n#*****#/n#*****#/n#*****#/n#*****#
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#*****#							      <
+#*###*#							      <
+ *   * 							      <
+ *   * 							      <
+ ***** 							      <
+Checking squares(7,1, 5, 9)
+Your program produced the wrong output!
+Here are the differences:
+#######   						      /	#*********/n#*********/n#*********/n#*********/n#*********/n#
+#     #   						      <
+#     #   						      <
+#     #   						      <
+#     #   						      <
+#*********						      <
+#*#####  *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *       *						      <
+ *********						      <
+Checking squares(7,2, 1, 1)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	##*####/n# *   #/n# *   #/n# *   #/n# *   #/n# *   #/n##*####
+# *   #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#######							      <
+Checking squares(7,2, 1, 2)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	##**###/n# **  #/n# **  #/n# **  #/n# **  #/n# **  #/n##**###
+# **  #							      <
+# **  #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#######							      <
+Checking squares(7,2, 1, 5)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	##*****/n# *****/n# *****/n# *****/n# *****/n# *****/n##*****
+# *****							      <
+# *   *							      <
+# *   *							      <
+# *   *							      <
+# *****							      <
+#######							      <
+Checking squares(7,2, 1, 8)
+Your program produced the wrong output!
+Here are the differences:
+#######   						      /	##********/n# ********/n# ********/n# ********/n# ********/n#
+# ********						      <
+# *   #  *						      <
+# *   #  *						      <
+# *   #  *						      <
+# *   #  *						      <
+##*####  *						      <
+  *      *						      <
+  ********						      <
+Checking squares(7,2, 3, 1)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	##*####/n# *   #/n# *   #/n# *   #/n# *   #/n# *   #/n##*####
+#     #							      <
+#     #							      <
+# *   #							      <
+#     #							      <
+#     #							      <
+#######							      <
+Checking squares(7,2, 3, 2)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	##**###/n# **  #/n# **  #/n# **  #/n# **  #/n# **  #/n##**###
+#     #							      <
+#     #							      <
+# **  #							      <
+# **  #							      <
+#     #							      <
+#######							      <
+Checking squares(7,2, 3, 5)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	##*****/n# *****/n# *****/n# *****/n# *****/n# *****/n##*****
+#     #							      <
+#     #							      <
+# *****							      <
+# *   *							      <
+# *   *							      <
+##*###*							      <
+  *****							      <
+Checking squares(7,2, 3, 7)
+Your program produced the wrong output!
+Here are the differences:
+#######  						      /	##*******/n# *******/n# *******/n# *******/n# *******/n# ****
+#     #  						      <
+#     #  						      <
+# *******						      <
+# *   # *						      <
+# *   # *						      <
+##*#### *						      <
+  *     *						      <
+  *     *						      <
+  *******						      <
+Checking squares(7,2, 6, 1)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	##*####/n# *   #/n# *   #/n# *   #/n# *   #/n# *   #/n##*####
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+##*####							      <
+Checking squares(7,2, 6, 2)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	##**###/n# **  #/n# **  #/n# **  #/n# **  #/n# **  #/n##**###
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+##**###							      <
+  **   							      <
+Checking squares(7,2, 6, 5)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	##*****/n# *****/n# *****/n# *****/n# *****/n# *****/n##*****
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+##*****							      <
+  *   *							      <
+  *   *							      <
+  *   *							      <
+  *****							      <
+Checking squares(7,2, 6, 10)
+Your program produced the wrong output!
+Here are the differences:
+#######     						      /	##**********/n# **********/n# **********/n# **********/n# ***
+#     #     						      <
+#     #     						      <
+#     #     						      <
+#     #     						      <
+#     #     						      <
+##**********						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  *        *						      <
+  **********						      <
+Checking squares(7,5, 1, 1)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#####*#/n#    *#/n#    *#/n#    *#/n#    *#/n#    *#/n#####*#
+#    *#							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#######							      <
+Checking squares(7,5, 1, 2)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#####**/n#    **/n#    **/n#    **/n#    **/n#    **/n#####**
+#    **							      <
+#    **							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#######							      <
+Checking squares(7,5, 1, 5)
+Your program produced the wrong output!
+Here are the differences:
+#######   						      /	#####*****/n#    *****/n#    *****/n#    *****/n#    *****/n#
+#    *****						      <
+#    *#  *						      <
+#    *#  *						      <
+#    *#  *						      <
+#    *****						      <
+#######   						      <
+Checking squares(7,5, 1, 11)
+Your program produced the wrong output!
+Here are the differences:
+#######         					      /	#####***********/n#    ***********/n#    ***********/n#    **
+#    ***********					      <
+#    *#        *					      <
+#    *#        *					      <
+#    *#        *					      <
+#    *#        *					      <
+#####*#        *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     ***********					      <
+Checking squares(7,5, 3, 1)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#####*#/n#    *#/n#    *#/n#    *#/n#    *#/n#    *#/n#####*#
+#     #							      <
+#     #							      <
+#    *#							      <
+#     #							      <
+#     #							      <
+#######							      <
+Checking squares(7,5, 3, 2)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#####**/n#    **/n#    **/n#    **/n#    **/n#    **/n#####**
+#     #							      <
+#     #							      <
+#    **							      <
+#    **							      <
+#     #							      <
+#######							      <
+Checking squares(7,5, 3, 5)
+Your program produced the wrong output!
+Here are the differences:
+#######   						      /	#####*****/n#    *****/n#    *****/n#    *****/n#    *****/n#
+#     #   						      <
+#     #   						      <
+#    *****						      <
+#    *#  *						      <
+#    *#  *						      <
+#####*#  *						      <
+     *****						      <
+Checking squares(7,5, 3, 11)
+Your program produced the wrong output!
+Here are the differences:
+#######         					      /	#####***********/n#    ***********/n#    ***********/n#    **
+#     #         					      <
+#     #         					      <
+#    ***********					      <
+#    *#        *					      <
+#    *#        *					      <
+#####*#        *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     *         *					      <
+     ***********					      <
+Checking squares(7,5, 5, 1)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#####*#/n#    *#/n#    *#/n#    *#/n#    *#/n#    *#/n#####*#
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#    *#							      <
+#######							      <
+Checking squares(7,5, 5, 2)
+Your program produced the wrong output!
+Here are the differences:
+#######							      /	#####**/n#    **/n#    **/n#    **/n#    **/n#    **/n#####**
+#     #							      <
+#     #							      <
+#     #							      <
+#     #							      <
+#    **							      <
+#####**							      <
+Checking squares(7,5, 5, 5)
+Your program produced the wrong output!
+Here are the differences:
+#######   						      /	#####*****/n#    *****/n#    *****/n#    *****/n#    *****/n#
+#     #   						      <
+#     #   						      <
+#     #   						      <
+#     #   						      <
+#    *****						      <
+#####*#  *						      <
+     *   *						      <
+     *   *						      <
+     *****						      <
+Checking squares(7,5, 5, 7)
+Your program produced the wrong output!
+Here are the differences:
+#######     						      /	#####*******/n#    *******/n#    *******/n#    *******/n#    
+#     #     						      <
+#     #     						      <
+#     #     						      <
+#     #     						      <
+#    *******						      <
+#####*#    *						      <
+     *     *						      <
+     *     *						      <
+     *     *						      <
+     *     *						      <
+     *******						      <
 Passed 0 out of 144 tests
 
 Overall Grade: D
