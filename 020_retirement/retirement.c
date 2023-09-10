@@ -34,7 +34,6 @@ void bal_retired(int startAge, double initial, retire_info working, retire_info 
   int month = start - 12 * year;
   double balance = bal_working(startAge, initial, working);
   int h = retired.months;
-  printf("Age %3d month %2d you have $%.2f\n", year, month, balance);
   for (int y = 0; y < h; y++) {
     balance += retired.contribution + balance * (retired.rate_of_return / 12);
     start++;
