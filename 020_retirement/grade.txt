@@ -1,6 +1,6 @@
-Grading at 09/10/2023:02:34:19.273931
-For commit ID e7a43263fbc4300a0c62de61833dce4860f4baa0
-Grading at Sat Sep  9 10:34:18 PM EDT 2023
+Grading at 09/10/2023:02:37:20.208708
+For commit ID a2eeb145adea90e6c2fca9999f473196f2d15d24
+Grading at Sat Sep  9 10:37:19 PM EDT 2023
 Attempting to compile retirement.c
 Checking for struct _retire_info
 Found on line 4, column 1 
@@ -13,9 +13,9 @@ Found on line 7, column 3
 Checking for typedef of struct _retire_info to retire_info
 Found on line 10, column 1 
 Checking for void retirement (int startAge, double initial,  retire_info working,  retire_info retired)
-Found on line 47, column 1 
+Found on line 46, column 1 
 Checking for int main(void)
-Found on line 55, column 1 
+Found on line 54, column 1 
 Trying to run retirement calculator..
 Line_491_did_not_match
 Line_492_did_not_match
@@ -507,8 +507,7 @@ Line_977_did_not_match
 Line_978_did_not_match
 Line_979_did_not_match
 Line_980_did_not_match
-Line_981_did_not_match
-Line_1365_did_not_match
+Line_1364_did_not_match
 Your file did not match the expected output
 Your output did not match what we expected. Here is what you printed
 Age  27 month  3 you have $21345.00
@@ -1490,7 +1489,6 @@ Age  67 month  8 you have $1502651.14
 Age  67 month  9 you have $1509286.09
 Age  67 month 10 you have $1515945.91
 Age  67 month 11 you have $1522630.71
-Age  68 month  0 you have $1529340.57
 Age  68 month  0 you have $1529340.57
 Age  68 month  1 you have $1526615.02
 Age  68 month  2 you have $1523887.20
