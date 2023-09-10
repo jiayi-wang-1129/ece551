@@ -29,9 +29,9 @@ double bal_working(int startAge, double initial, retire_info working) {
 }
 
 void bal_retired(int startAge, double initial, retire_info working, retire_info retired) {
-  int start = startAge;
-  int year = (start + working.months) / 12;
-  int month = (start + working.months) - 12 * year;
+  int start = startAge + working.months;
+  int year = start / 12;
+  int month = start - 12 * year;
   double balance = bal_working(startAge, initial, working);
   int h = retired.months;
   printf("Age %3d month %2d you have $%.2f\n", year, month, balance);
