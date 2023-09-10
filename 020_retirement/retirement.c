@@ -10,30 +10,31 @@ struct _retire_info {
 typedef struct _retire_info retire_info;
 
 double bal_working(int startAge, double initial, retire_info working) {
-  int year = startAge / 12;
-  int month = startAge - 12 * year;
+  int start = startAge;
+  int year = start / 12;
+  int month = start - 12 * year;
+
   double balance = initial;
   int h = working.months;
   printf("Age %3d month %2d you have $%.2f\n", year, month, balance);
   for (int y = 0; y < h; y++) {
-    balance += working.contribution * (working.rate_of_return / 12);
-
-    startAge++;
+    balance += working.contribution * (1 + working.rate_of_return / 12);
+    start++;
     printf("Age %3d month %2d you have $%.2f\n", year, month, balance);
   }
   return balance;
 }
 
 void bal_retired(int startAge, double initial, retire_info working, retire_info retired) {
-  int year = (startAge + working.months) / 12;
-  int month = (startAge + working.months) - 12 * year;
+  int start = startAge;
+  int year = (start + working.months) / 12;
+  int month = (start + working.months) - 12 * year;
   double balance = bal_working(startAge, initial, working);
   int h = retired.months;
   printf("Age %3d month %2d you have $%.2f\n", year, month, balance);
   for (int y = 0; y < h; y++) {
-    balance += retired.contribution * (retired.rate_of_return / 12);
-
-    startAge++;
+    balance += retired.contribution * (1 + retired.rate_of_return / 12);
+    start++;
     printf("Age %3d month %2d you have $%.2f\n", year, month, balance);
   }
 }
