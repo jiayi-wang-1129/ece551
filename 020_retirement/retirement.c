@@ -47,7 +47,6 @@ void retirement(int startAge,         //in months
                 double initial,       //initial savings in dollars
                 retire_info working,  //info about working
                 retire_info retired) {
-  bal_working(startAge, initial, working);
   bal_retired(startAge, initial, working, retired);
 }
 
