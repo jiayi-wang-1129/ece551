@@ -20,8 +20,11 @@ double bal_working(int startAge, double initial, retire_info working) {
   for (int y = 0; y < h; y++) {
     balance += working.contribution + balance * (working.rate_of_return / 12);
     start++;
+    year = start / 12;
+    month = start - 12 * year;
     printf("Age %3d month %2d you have $%.2f\n", year, month, balance);
   }
+
   return balance;
 }
 
@@ -35,6 +38,8 @@ void bal_retired(int startAge, double initial, retire_info working, retire_info 
   for (int y = 0; y < h; y++) {
     balance += retired.contribution + balance * (retired.rate_of_return / 12);
     start++;
+    year = start / 12;
+    month = start - 12 * year;
     printf("Age %3d month %2d you have $%.2f\n", year, month, balance);
   }
 }
