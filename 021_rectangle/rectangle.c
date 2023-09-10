@@ -41,15 +41,23 @@ rectangle canonicalize(rectangle r) {
 rectangle intersection(rectangle r1, rectangle r2) {
   r1 = canonicalize(r1);
   r2 = canonicalize(r2);
+  if (r1.y + r1.height <= r2.y || r2.y + r2.height <= r1.y || r1.x + r1.width <= r2.x ||
+      r2.x + r2.width <= r1.x) {
+    r1.width = 0;
+    r1.height = 0;
 
-  int h = max(r1.x, r2.x);
+    return r1;
+  }
+  else {
+    int h = max(r1.x, r2.x);
 
-  r1.width = min(r1.x + r1.width, r2.x + r2.width) - h;
-  r1.x = h;
-  int w = max(r1.y, r2.y);
-  r1.height = min(r1.y + r1.height, r2.y + r2.height) - w;
-  r1.y = w;
-  return r1;
+    r1.width = min(r1.x + r1.width, r2.x + r2.width) - h;
+    r1.x = h;
+    int w = max(r1.y, r2.y);
+    r1.height = min(r1.y + r1.height, r2.y + r2.height) - w;
+    r1.y = w;
+    return r1;
+  }
 }
 
 //You should not need to modify any code below this line
