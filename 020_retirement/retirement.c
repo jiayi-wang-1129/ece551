@@ -34,7 +34,7 @@ void bal_retired(int startAge, double initial, retire_info working, retire_info 
   int month = start - 12 * year;
   double balance = bal_working(startAge, initial, working);
   int h = retired.months;
-  for (int y = 0; y < h; y++) {
+  for (int y = 0; y < h - 1; y++) {
     balance += retired.contribution + balance * (retired.rate_of_return / 12);
     start++;
     year = start / 12;
