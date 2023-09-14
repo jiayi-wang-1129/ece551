@@ -9,6 +9,9 @@ unsigned power(unsigned x, unsigned y) {
     }
     return 0;
   }
+  if (y == 0) {
+    return 1;
+  }
   if (y > 1) {
     y--;
     value = x * power(x, y);
