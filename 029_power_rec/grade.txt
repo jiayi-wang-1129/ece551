@@ -1,9 +1,47 @@
-Grading at 09/14/2023:04:52:20.657347
-For commit ID a911bdeb64f0f6ccb7ef6569c545ff81c465b1ab
-Grading at Thu Sep 14 12:52:20 AM EDT 2023
+Grading at 09/14/2023:04:56:42.577758
+For commit ID 663aee9fa5b44c0d86734315dd3865b068ce5372
+Grading at Thu Sep 14 12:56:40 AM EDT 2023
 Attempting to compile power.c
-cc1: fatal error: power.c: No such file or directory
-compilation terminated.
-The code did not compile!
+Attempting to compile power.o with our main
+Checking for unsigned power (unsigned x, unsigned y)
+Found on line 5, column 1 
+Checking for no iteration (do, while, for)
+Checking that power is recursive
+0^0 was Correct
+0^1 was Correct
+0^2 was Correct
+0^6 was Correct
+0^8 was Correct
+0^11 was Correct
+1^0 was Correct
+1^1 was Correct
+1^2 was Correct
+1^6 was Correct
+1^8 was Correct
+1^11 was Correct
+4^0 was Incorrect
+4^1 was Correct
+4^2 was Correct
+4^6 was Correct
+4^8 was Correct
+4^11 was Correct
+5^0 was Incorrect
+5^1 was Correct
+5^2 was Correct
+5^6 was Correct
+5^8 was Correct
+5^11 was Correct
+9^0 was Incorrect
+9^1 was Correct
+9^2 was Correct
+9^6 was Correct
+9^8 was Correct
+9^11 was Correct
+12^0 was Incorrect
+12^1 was Correct
+12^2 was Correct
+12^6 was Correct
+12^8 was Correct
+12^11 was Correct
 
-Overall Grade: F
+Overall Grade: C
