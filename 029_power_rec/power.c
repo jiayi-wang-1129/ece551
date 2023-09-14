@@ -18,7 +18,3 @@ unsigned power(unsigned x, unsigned y) {
     return x;
   }
 }
-int main(void) {
-  power(2, 3);
-  return EXIT_SUCCESS;
-}
