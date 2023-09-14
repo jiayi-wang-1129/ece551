@@ -1,6 +1,6 @@
-Grading at 09/14/2023:04:56:42.577758
-For commit ID 663aee9fa5b44c0d86734315dd3865b068ce5372
-Grading at Thu Sep 14 12:56:40 AM EDT 2023
+Grading at 09/14/2023:05:04:04.343374
+For commit ID 60ca7ee0860b6d84e5633b5695ad234827ece28d
+Grading at Thu Sep 14 01:04:02 AM EDT 2023
 Attempting to compile power.c
 Attempting to compile power.o with our main
 Checking for unsigned power (unsigned x, unsigned y)
@@ -19,29 +19,29 @@ Checking that power is recursive
 1^6 was Correct
 1^8 was Correct
 1^11 was Correct
-4^0 was Incorrect
+4^0 was Correct
 4^1 was Correct
 4^2 was Correct
 4^6 was Correct
 4^8 was Correct
 4^11 was Correct
-5^0 was Incorrect
+5^0 was Correct
 5^1 was Correct
 5^2 was Correct
 5^6 was Correct
 5^8 was Correct
 5^11 was Correct
-9^0 was Incorrect
+9^0 was Correct
 9^1 was Correct
 9^2 was Correct
 9^6 was Correct
 9^8 was Correct
 9^11 was Correct
-12^0 was Incorrect
+12^0 was Correct
 12^1 was Correct
 12^2 was Correct
 12^6 was Correct
 12^8 was Correct
 12^11 was Correct
 
-Overall Grade: C
+Overall Grade: A
