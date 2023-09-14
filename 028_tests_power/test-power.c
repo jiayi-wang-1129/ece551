@@ -15,5 +15,6 @@ void run_check(unsigned x, unsigned y, unsigned expected_ans) {
 }
 int main(void) {
   run_check(2, 2, 4);
+  run_check(0, 0, 1);
   return 0;
 }
