@@ -1,13 +1,66 @@
-Grading at 09/14/2023:00:25:18.970365
-For commit ID 75d3caffda0d3cb9a4fa5e16969b99f8d3c06cbf
-Grading at Wed Sep 13 08:25:18 PM EDT 2023
+Grading at 09/14/2023:03:37:19.957469
+For commit ID bf580ba9671fb0258188653825aa99ee1d8a3833
+Grading at Wed Sep 13 11:37:18 PM EDT 2023
 **Testing broken implementation 10 **
 -------------------------------------
 
-Fail
+F 2
+
 **Testing broken implementation 11 **
 -------------------------------------
 
-goodYour test program did not identify /usr/local/ece551/power/power11.o as broken!
+goodF 0
 
-Overall Grade: FAILED
+**Testing broken implementation 1 **
+-------------------------------------
+
+F 1
+
+**Testing broken implementation 2 **
+-------------------------------------
+
+goodF 0
+
+**Testing broken implementation 3 **
+-------------------------------------
+
+goodgoodF 0
+
+**Testing broken implementation 4 **
+-------------------------------------
+
+goodF 4096
+
+**Testing broken implementation 5 **
+-------------------------------------
+
+F 2
+
+**Testing broken implementation 6 **
+-------------------------------------
+
+goodF 16
+
+**Testing broken implementation 7 **
+-------------------------------------
+
+F 9
+
+**Testing broken implementation 8 **
+-------------------------------------
+
+goodF 800
+
+**Testing broken implementation 9 **
+-------------------------------------
+
+F 0
+
+**Testing correct implementation **
+-------------------------------------
+
+goodgoodgood
+All tests were ok.
+
+
+Overall Grade: PASSED
