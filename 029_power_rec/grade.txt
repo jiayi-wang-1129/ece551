@@ -1,0 +1,9 @@
+Grading at 09/14/2023:04:52:20.657347
+For commit ID a911bdeb64f0f6ccb7ef6569c545ff81c465b1ab
+Grading at Thu Sep 14 12:52:20 AM EDT 2023
+Attempting to compile power.c
+cc1: fatal error: power.c: No such file or directory
+compilation terminated.
+The code did not compile!
+
+Overall Grade: F
