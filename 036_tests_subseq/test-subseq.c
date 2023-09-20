@@ -24,7 +24,7 @@ int main(void) {
   check(s2, 3, 2);
   check(s3, 4, 2);
   check(s5, 0, 0);
-  check(s4, 3, 2);
+  check(s4, 4, 2);
   check(s6, 5, 4);
   check(s7, 6, 2);
   check(0, 0, 0);
