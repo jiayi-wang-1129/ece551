@@ -11,10 +11,10 @@ size_t maxSeq(int * array, size_t n) {
       count = 0;
     }
   }
-  if (count == 0 & n > 1) {
+  if ((count == 0) & (n > 1)) {
     return 1;
   }
-  if (count == 0 & n <= 1) {
+  if ((count == 0) & (n <= 1)) {
     return 0;
   }
   else {
