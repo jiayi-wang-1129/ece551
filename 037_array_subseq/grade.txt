@@ -1,0 +1,15 @@
+Grading at 09/20/2023:19:14:26.778881
+For commit ID adcd23e075196aa212a5565bed301bb4bf0b3f8c
+Grading at Wed Sep 20 03:14:26 PM EDT 2023
+Attempting to compile maxSeq.c 
+maxSeq.c: In function ‘maxSeq’:
+maxSeq.c:14:13: error: suggest parentheses around comparison in operand of ‘&’ [-Werror=parentheses]
+   14 |   if (count == 0 & n > 1) {
+      |       ~~~~~~^~~~
+maxSeq.c:17:13: error: suggest parentheses around comparison in operand of ‘&’ [-Werror=parentheses]
+   17 |   if (count == 0 & n <= 1) {
+      |       ~~~~~~^~~~
+cc1: all warnings being treated as errors
+The code did not compile!
+
+Overall Grade: F
