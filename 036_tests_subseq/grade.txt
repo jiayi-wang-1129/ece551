@@ -1,0 +1,65 @@
+Grading at 09/20/2023:06:23:06.717324
+For commit ID a1f2fc8e379d850e0748e33d1a5a6578660d156d
+Grading at Wed Sep 20 02:23:05 AM EDT 2023
+**Testing broken implementation 10 **
+-------------------------------------
+
+goodgoodgoodgoodgoodF = 4, 3
+ 
+**Testing broken implementation 11 **
+-------------------------------------
+
+F = 1, 2
+ 
+**Testing broken implementation 1 **
+-------------------------------------
+
+F = 1, 3
+ 
+**Testing broken implementation 2 **
+-------------------------------------
+
+goodF = 2, 1
+ 
+**Testing broken implementation 3 **
+-------------------------------------
+
+goodgoodgoodgoodgoodgoodF = 2, 3
+ 
+**Testing broken implementation 4 **
+-------------------------------------
+
+goodgoodgoodF = 0, 1
+ 
+**Testing broken implementation 5 **
+-------------------------------------
+
+goodF = 2, 3
+ 
+**Testing broken implementation 6 **
+-------------------------------------
+
+F = 1, 0
+ 
+**Testing broken implementation 7 **
+-------------------------------------
+
+F = 1, -1
+ 
+**Testing broken implementation 8 **
+-------------------------------------
+
+goodF = 2, 1
+ 
+**Testing broken implementation 9 **
+-------------------------------------
+
+goodF = 2, 1
+ 
+**Testing correct implementation **
+-------------------------------------
+
+goodgoodgoodgoodgoodgoodgoodgood
+All test programs were handled correctly
+
+Overall Grade: PASSED
