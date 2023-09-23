@@ -11,7 +11,7 @@ size_t maxSeq(int * array, size_t n) {
       count++;
       q++;
       *q = count;
-      if (*q > *(q - 1)) {
+      if (*q > *p) {
         p = q;
       }
     }
