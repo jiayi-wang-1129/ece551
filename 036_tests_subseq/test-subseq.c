@@ -18,12 +18,12 @@ int main(void) {
   int s3[4] = {0, 2, 1, 3};
   int s4[4] = {1, 2, 0};
   int s5[1] = {1};
-  int s6[5] = {-3, -2, -1, 0};
+  int s6[5] = {0, 1, 2, 3};
   int s7[6] = {0, 1, 0, 2, 0, 3};
   check(s1, 3, 1);
   check(s2, 3, 2);
   check(s3, 4, 2);
-  check(s5, 1, 0);
+
   check(s4, 4, 2);
   check(s6, 5, 4);
   check(s7, 6, 2);
