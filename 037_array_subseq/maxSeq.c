@@ -9,17 +9,19 @@ size_t maxSeq(int * array, size_t n) {
     if (array[i] > array[i - 1]) {
       count++;
       array1[i] = count;
-      p = &array1[i];
+      if (array1[i] > array1[i - 1]) {
+        p = &array1[i];
+      }
     }
     else {
       count = 0;
     }
   }
   if ((*p == 0) & (n >= 1)) {
-    return 0;
+    return 1;
   }
   if ((count == 0) & (n < 1)) {
-    return 1;
+    return 0;
   }
   else {
     return *p + 1;
