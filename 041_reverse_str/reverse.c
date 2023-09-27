@@ -25,7 +25,6 @@ void reverse(char * str) {
       str++;
       i++;
     }
-    printf("i is  %d, count is %d", i, count);
     str--;
 
     for (int n = 0; n <= count; n++) {
