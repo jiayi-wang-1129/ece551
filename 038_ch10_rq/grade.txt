@@ -1,17 +1,11 @@
-Grading at 09/25/2023:19:19:17.333385
-For commit ID 0408dbb5a11000f94cd6dffba2690ae7303e0d4c
-Grading at Mon Sep 25 03:19:16 PM EDT 2023
+Grading at 09/27/2023:02:09:58.359839
+For commit ID 7b482a95a78a9cac9e35c4d27a3d34869d993657
+Grading at Tue Sep 26 10:09:57 PM EDT 2023
 Reading your quiz answers from answers.txt
-You got 8 questions incorrect.
+You got 1 questions incorrect.
 You might want to review these concepts:
 ------------
-Converting from Strings to ints
-Declaration of Multidimensional Arrays
 Function Pointers
-Indexing Multidimensional Arrays and Accessing an Array in Chapter 7
-Security Hazards
-String Equality
-Strings
 ------------
 
 Overall Grade: FAILED
