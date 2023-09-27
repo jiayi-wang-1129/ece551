@@ -1,0 +1,35 @@
+Grading at 09/27/2023:18:06:50.569145
+For commit ID c4d328e40fb1cd90a7d9930b657f4af658993d89
+Grading at Wed Sep 27 02:06:50 PM EDT 2023
+Attempting to compile  reverse.c
+Line_1_did_not_match
+Line_2_did_not_match
+Line_3_did_not_match
+Line_4_did_not_match
+Line_5_did_not_match
+Line_6_did_not_match
+Line_7_did_not_match
+Your file did not match the expected output
+Your output did not match what we expected.
+Removing your main() and replacing it with our own to run more tests...
+#################################################
+testcase2:
+ - Your program segfaulted.
+your code failed the testcase
+#################################################
+testcase3:
+Line_1_did_not_match
+Your file did not match the expected output
+your code failed the testcase
+#################################################
+testcase4:
+Line_1_did_not_match
+Your file did not match the expected output
+your code failed the testcase
+#################################################
+testcase5:
+Line_1_did_not_match
+Your file did not match the expected output
+your code failed the testcase
+
+Overall Grade: F
