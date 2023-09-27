@@ -3,28 +3,34 @@
 #include <string.h>
 
 void reverse(char * str) {
-  int count = 0;
-  char * ptr;
-  ptr = str;
-  while (*str != '\0') {
-    str++;
-    count++;
+  if (*str == '\0') {
+    return;
   }
-  char array[count + 1];
-  str = ptr;
-  int i = 0;
-  while (*str != '\0') {
-    array[i] = *str;
-    str++;
-    i++;
-  }
-  str--;
-  for (int i = 0; i <= count; i++) {
-    *str = array[i];
+  else {
+    int count = 0;
+    char * ptr;
+    ptr = str;
+    while (*str != '\0') {
+      str++;
+      count++;
+    }
+    char array[count + 1];
+    str = ptr;
+    int i = 0;
+    while (*str != '\0') {
+      array[i] = *str;
+      str++;
+      i++;
+    }
+
     str--;
+
+    for (int n = 0; n <= count; n++) {
+      *str = array[n];
+      str--;
+    }
   }
 }
-
 int main(void) {
   char str0[] = "";
   char str1[] = "123";
