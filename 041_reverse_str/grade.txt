@@ -1,15 +1,9 @@
-Grading at 09/27/2023:19:54:59.436361
-For commit ID 76fdab4d6e1ca603c041de548e8288f02ae75c2c
-Grading at Wed Sep 27 03:54:58 PM EDT 2023
+Grading at 09/27/2023:19:56:40.089524
+For commit ID b69d1130c967c27d94f5d6b62e8d8ee9ce73e592
+Grading at Wed Sep 27 03:56:39 PM EDT 2023
 Attempting to compile  reverse.c
-Line_2_did_not_match
-Line_3_did_not_match
-Line_4_did_not_match
-Line_5_did_not_match
-Line_6_did_not_match
-Line_7_did_not_match
-Your file did not match the expected output
-Your output did not match what we expected.
+Your file matched the expected output
+Your output matched what we expected
 Removing your main() and replacing it with our own to run more tests...
 #################################################
 testcase2:
@@ -17,18 +11,12 @@ testcase2:
 your code failed the testcase
 #################################################
 testcase3:
-Line_1_did_not_match
-Your file did not match the expected output
-your code failed the testcase
+Your file matched the expected output
 #################################################
 testcase4:
-Line_1_did_not_match
-Your file did not match the expected output
-your code failed the testcase
+Your file matched the expected output
 #################################################
 testcase5:
-Line_1_did_not_match
-Your file did not match the expected output
-your code failed the testcase
+Your file matched the expected output
 
-Overall Grade: F
+Overall Grade: C
