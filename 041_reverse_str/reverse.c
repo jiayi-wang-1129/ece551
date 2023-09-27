@@ -6,6 +6,9 @@ void reverse(char * str) {
   if (*str == '\0') {
     return;
   }
+  if (str == NULL) {
+    return;
+  }
   else {
     int count = 0;
     char * ptr;
