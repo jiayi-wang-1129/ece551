@@ -3,9 +3,25 @@
 #include <string.h>
 
 void reverse(char * str) {
-  size_t t = sizeof(str);
-  for (size_t i = 0; i < t; i++) {
-    str[i] = str[t - 1 - i];
+  int count = 0;
+  char * ptr;
+  ptr = str;
+  while (*str != '\0') {
+    str++;
+    count++;
+  }
+  char array[count + 1];
+  str = ptr;
+  int i = 0;
+  while (*str != '\0') {
+    array[i] = *str;
+    str++;
+    i++;
+  }
+  str--;
+  for (int i = 0; i <= count; i++) {
+    *str = array[i];
+    str--;
   }
 }
 
