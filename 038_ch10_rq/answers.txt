@@ -1,12 +1,12 @@
-G
+E
 E
 D
-A
 D
-A
+D
+D
 G
-F
-G
+J
+E
 C
 G
 B
@@ -14,5 +14,5 @@ A
 D
 D
 B
-A
-B
+C
+C
