@@ -13,7 +13,7 @@ int find_max(int * array, size_t n) {
   }
   return index;
 }
-void find_e(FILE * f) {
+void breaker(FILE * f) {
   int c;
   int ptr[26];
   while ((c = fgetc(f)) != EOF) {
@@ -30,7 +30,7 @@ void find_e(FILE * f) {
   else {
     key = e_ + 22;
   }
-  fprintf(stderr, "%d\n", key);
+  fprintf(stdout, "%d\n", key);
 }
 
 int main(int argc, char ** argv) {
@@ -42,7 +42,7 @@ int main(int argc, char ** argv) {
     perror("Could not open file");
     return EXIT_FAILURE;
   }
-  find_e(f);
+  breaker(f);
   if (fclose(f) != 0) {
     perror("Failed to close the input file!");
     return EXIT_FAILURE;
