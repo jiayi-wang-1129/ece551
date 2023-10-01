@@ -15,7 +15,7 @@ ss_monthly_t parseLine(char * line) {
   ans.year = 0;
   ans.month = 0;
   ans.num = 0;
-
+  //Parse nums
   const char * a = strchr(line, ',');
   a++;
   ans.num = atof(a);
@@ -23,6 +23,7 @@ ss_monthly_t parseLine(char * line) {
     fprintf(stderr, "input is negative for sunspots\n");
     exit(EXIT_FAILURE);
   }
+  //Parse year
   int size = strlen(line);
   char * year_c = &line[size - 5];
   strncpy(year_c, line, 4);
@@ -31,6 +32,7 @@ ss_monthly_t parseLine(char * line) {
     fprintf(stderr, "Year input is invalid\n");
     exit(EXIT_FAILURE);
   }
+  //Parse months
   char * ptr = strchr(line, '-');
   ptr++;
   char * month_c = &line[size - 3];
@@ -110,23 +112,20 @@ ss_monthly_t parseLine(char * line) {
 
 void meanFilter(ss_monthly_t * data, size_t n, ss_monthly_t * mean, unsigned w) {
   size_t h_w = w / 2;
+  //Standarlize array mean;
   for (size_t r = 0; r < n; r++) {
     mean[r].year = data[r].year;
     mean[r].month = data[r].month;
     mean[r].num = 0;
   }
-
-  // for (size_t l = 0; l < n; l++) {
-  // printf("mean l= %ld, year =  %f\n,pre", l, mean[l].num);
-  //  printf("data l= %ld, year =  %f\n,pre", l, data[l].num);
-  // }
+  //when computing average,for loop below could include w/2 elements for index both larger and smaller than i;
   for (size_t i = h_w; i < n - h_w; i++) {
     for (size_t j = i - h_w; j <= i + h_w; j++) {
       mean[i].num += data[j].num;
     }
     mean[i].num = mean[i].num / w;
   }
-
+  //Could include w/2 elements for index larger than m
   for (size_t m = 0; m < h_w; m++) {
     for (size_t n1 = 0; n1 <= m; n1++) {
       mean[m].num += data[n1].num;
@@ -134,10 +133,10 @@ void meanFilter(ss_monthly_t * data, size_t n, ss_monthly_t * mean, unsigned w) 
     for (size_t n2 = m + 1; n2 <= m + h_w; n2++) {
       mean[m].num += data[n2].num;
     }
-    //   printf("before dividing, m = %ld, num = %f", m, mean[m].num);
+
     mean[m].num = mean[m].num / (m + 1 + h_w);
   }
-
+  //Could include w/2 elements for index smaller than p
   for (size_t p = n - 1; p > n - 1 - h_w; p--) {
     for (size_t q1 = n - 1; q1 >= p; q1--) {
       mean[p].num += data[q1].num;
@@ -172,22 +171,39 @@ double findLocalMax(ss_monthly_t * data, size_t n) {
   }
   if (*store < *ptr) {
     //in above case, local max has never been reached, the value was strictly increasing, the largest value is at end.
-    time_s = (data[n - 1].year + data[n - 1].month) / 12.0;
+    time_s = data[n - 1].year + data[n - 1].month / 12.0;
   }
   if (ptr == &data[0].num) {
     //in above case,if ptr never moves, means the value only decreases(also store == ptr);the largest is at beginning.
-    time_s = (data[0].year + data[0].month) / 12.0;
+    time_s = data[0].year + data[0].month / 12.0;
   }
   else {
     //else includes: *store =*ptr and ptr has moved;or store points to larger value than ptr does. We use "index" both cases.
-    time_s = (data[index].year + data[index].month) / 12.0;
+    time_s = data[index].year + data[index].month / 12.0;
   }
 
   return time_s;
 }
 
 double calcSsPeriod(double * timeStamps, size_t n) {
-  //WRITE ME
+  if (n < 2) {
+    fprintf(stderr, "input size is less than 2");
+    exit(EXIT_FAILURE);
+  }
+  if (n == 2) {
+    return timeStamps[1] - timeStamps[0];
+  }
 
-  return 0;
+  double result = 0;
+  for (size_t i = 1; i < n; i++) {
+    result += timeStamps[i] - timeStamps[i - 1];
+    if (timeStamps[i] - timeStamps[i - 1] <= 0) {
+      fprintf(stderr, "input of timeStamps is not an increasing array, error");
+      exit(EXIT_FAILURE);
+    }
+  }
+  //Instead of the for loop above, one could also obtain the sum by directly computing timeStamps[n - 1] - timeStamps[0]);
+  //However, the for loop helps us checking if there is invalid input(negative difference of time stamps.
+
+  return result / (n - 1);
 }
