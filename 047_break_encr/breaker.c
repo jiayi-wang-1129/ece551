@@ -23,7 +23,13 @@ void find_e(FILE * f) {
     }
   }
   int e_ = find_max(ptr, 26);
-  int key = (e_ - 'a') + 22;
+  int key;
+  if (e_ >= 4) {
+    key = e_ - 4;
+  }
+  else {
+    key = e_ + 22;
+  }
   fprintf(stderr, "%d\n", key);
 }
 
