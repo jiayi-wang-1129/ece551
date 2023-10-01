@@ -156,19 +156,32 @@ double findLocalMax(ss_monthly_t * data, size_t n) {
   }
   double time_s = 0;
   size_t index = 0;
-  // const double * ptr =&data[0].num;
-  // double max_array[n];
+  const double * ptr = &data[0].num;
+  const double * store = ptr;
   for (size_t i = 1; i < n; i++) {
     if (data[i - 1].num < data[i].num) {
-      data = &data[i];
-      index = i;
+      ptr = &data[i].num;
+      //ptr captures increasing interval;
     }
     else {
-      index = i - 1;
-      break;
+      if (*ptr > *store) {
+        store = ptr;
+        index = i - 1;
+      }
     }
   }
-  time_s = (data[index].year + data[index].month) / 12;
+  if (*store < *ptr) {
+    //in above case, local max has never been reached, the value was strictly increasing, the largest value is at end.
+    time_s = (data[n - 1].year + data[n - 1].month) / 12.0;
+  }
+  if (ptr == &data[0].num) {
+    //in above case,if ptr never moves, means the value only decreases(also store == ptr);the largest is at beginning.
+    time_s = (data[0].year + data[0].month) / 12.0;
+  }
+  else {
+    //else includes: *store =*ptr and ptr has moved;or store points to larger value than ptr does. We use "index" both cases.
+    time_s = (data[index].year + data[index].month) / 12.0;
+  }
 
   return time_s;
 }
