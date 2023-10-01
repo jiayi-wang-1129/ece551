@@ -109,15 +109,72 @@ ss_monthly_t parseLine(char * line) {
 //}
 
 void meanFilter(ss_monthly_t * data, size_t n, ss_monthly_t * mean, unsigned w) {
-  // WRITE ME
+  size_t h_w = w / 2;
+  for (size_t r = 0; r < n; r++) {
+    mean[r].year = data[r].year;
+    mean[r].month = data[r].month;
+    mean[r].num = 0;
+  }
+
+  // for (size_t l = 0; l < n; l++) {
+  // printf("mean l= %ld, year =  %f\n,pre", l, mean[l].num);
+  //  printf("data l= %ld, year =  %f\n,pre", l, data[l].num);
+  // }
+  for (size_t i = h_w; i < n - h_w; i++) {
+    for (size_t j = i - h_w; j <= i + h_w; j++) {
+      mean[i].num += data[j].num;
+    }
+    mean[i].num = mean[i].num / w;
+  }
+
+  for (size_t m = 0; m < h_w; m++) {
+    for (size_t n1 = 0; n1 <= m; n1++) {
+      mean[m].num += data[n1].num;
+    }
+    for (size_t n2 = m + 1; n2 <= m + h_w; n2++) {
+      mean[m].num += data[n2].num;
+    }
+    //   printf("before dividing, m = %ld, num = %f", m, mean[m].num);
+    mean[m].num = mean[m].num / (m + 1 + h_w);
+  }
+
+  for (size_t p = n - 1; p > n - 1 - h_w; p--) {
+    for (size_t q1 = n - 1; q1 >= p; q1--) {
+      mean[p].num += data[q1].num;
+    }
+    for (size_t q2 = p - 1; q2 >= p - h_w; q2--) {
+      mean[p].num += data[q2].num;
+    }
+    mean[p].num = mean[p].num / (h_w + n - p);
+  }
 }
 
 double findLocalMax(ss_monthly_t * data, size_t n) {
-  // WRITE ME
-  return 0;
+  if (n == 0) {
+    fprintf(stderr, "Array has size 0, error");
+    exit(EXIT_FAILURE);
+  }
+  double time_s = 0;
+  size_t index = 0;
+  // const double * ptr =&data[0].num;
+  // double max_array[n];
+  for (size_t i = 1; i < n; i++) {
+    if (data[i - 1].num < data[i].num) {
+      data = &data[i];
+      index = i;
+    }
+    else {
+      index = i - 1;
+      break;
+    }
+  }
+  time_s = (data[index].year + data[index].month) / 12;
+
+  return time_s;
 }
 
 double calcSsPeriod(double * timeStamps, size_t n) {
   //WRITE ME
+
   return 0;
 }
