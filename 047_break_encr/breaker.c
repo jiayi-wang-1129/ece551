@@ -5,7 +5,7 @@
 int find_max(int * array, size_t n) {
   int * ptr1 = array;
   size_t index = 0;
-  for (size_t i = 1; i < n; i++) {
+  for (size_t i = 1; i < n - 1; i++) {
     if (array[i] > *ptr1) {
       ptr1 = &array[i];
       index = i;
