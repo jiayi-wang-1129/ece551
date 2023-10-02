@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int find_max(int * array, size_t n) {
+int find_max(int * array) {
   int * ptr1 = array;
   size_t index = 0;
-  for (size_t i = 1; i < n; i++) {
+  for (size_t i = 1; i < 26; i++) {
     if (array[i] > *ptr1) {
       ptr1 = &array[i];
       index = i;
@@ -22,7 +22,7 @@ void breaker(FILE * f) {
       ptr[c - 'a']++;
     }
   }
-  int e_ = find_max(ptr, 26);
+  int e_ = find_max(ptr);
   int key;
   if (e_ >= 4) {
     key = e_ - 4;
