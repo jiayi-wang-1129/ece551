@@ -11,6 +11,10 @@ int find_max(int * array) {
       index = i;
     }
   }
+  if (array[index] == 0) {
+    fprintf(stderr, "No File input\n");
+    EXIT_FAILURE;
+  }
   return index;
 }
 
@@ -44,6 +48,7 @@ int main(int argc, char ** argv) {
     return EXIT_FAILURE;
   }
   breaker(f);
+
   if (fclose(f) != 0) {
     perror("Failed to close the input file!");
     return EXIT_FAILURE;
