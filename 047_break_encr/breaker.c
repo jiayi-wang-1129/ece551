@@ -4,10 +4,10 @@
 
 int find_max(int * array) {
   int index = 0;
-  int max = array[0];
+  int * max = &array[0];
   for (int i = 1; i < 26; i++) {
-    if (array[i] > max) {
-      max = array[i];
+    if (array[i] > *max) {
+      max = &array[i];
       index = i;
     }
   }
@@ -16,10 +16,8 @@ int find_max(int * array) {
 
 void breaker(FILE * f) {
   int c;
-  int ptr[26];
-  for (int i = 0; i < 26; i++) {
-    ptr[i] = 0;
-  }
+  int ptr[26] = {0};
+
   while ((c = fgetc(f)) != EOF) {
     if ((isalpha(c))) {
       c = tolower(c);
