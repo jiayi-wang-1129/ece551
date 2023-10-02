@@ -4,10 +4,10 @@
 
 int find_max(int * array) {
   int index = 0;
-  int * ptr = array;
+  int max = array[0];
   for (int i = 1; i < 26; i++) {
-    if (array[i] > *ptr) {
-      ptr = &array[i];
+    if (array[i] > max) {
+      max = array[i];
       index = i;
     }
   }
