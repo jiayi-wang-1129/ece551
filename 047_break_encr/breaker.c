@@ -16,26 +16,26 @@ int find_max(int * array) {
 
 void breaker(FILE * f) {
   int c;
-  int ptr[26] = {0};
+  int ptr[26];
+  for (int i = 0; i < 26; i++) {
+    ptr[i] = 0;
+  }
   while ((c = fgetc(f)) != EOF) {
-    if (isalpha(c)) {
+    if ((isalpha(c))) {
       c = tolower(c);
       ptr[c - 'a']++;
     }
   }
-  int e_ = find_max(ptr);
-  if (ptr[e_] == 0) {
-    fprintf(stderr, "No File input\n");
-    EXIT_FAILURE;
-  }
+  int max = find_max(ptr);
   int key;
-  if (e_ >= 4) {
-    key = e_ - 4;
+  if (max >= 4) {
+    key = max - 4;
   }
   else {
-    key = e_ + 22;
+    key = 22 + max;
   }
-  fprintf(stdout, "%d\n", key);
+
+  printf("%d\n", key);
 }
 
 int main(int argc, char ** argv) {
