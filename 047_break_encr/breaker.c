@@ -41,6 +41,7 @@ void breaker(FILE * f) {
 int main(int argc, char ** argv) {
   if (argc != 2) {
     fprintf(stderr, "Usage: inputFileName\n");
+    return EXIT_FAILURE;
   }
   FILE * f = fopen(argv[1], "r");
   if (f == NULL) {
