@@ -11,10 +11,6 @@ int find_max(int * array) {
       index = i;
     }
   }
-  if (array[index] == 0) {
-    fprintf(stderr, "No File input\n");
-    EXIT_FAILURE;
-  }
   return index;
 }
 
@@ -28,6 +24,10 @@ void breaker(FILE * f) {
     }
   }
   int e_ = find_max(ptr);
+  if (ptr[e_] == 0) {
+    fprintf(stderr, "No File input\n");
+    EXIT_FAILURE;
+  }
   int key;
   if (e_ >= 4) {
     key = e_ - 4;
