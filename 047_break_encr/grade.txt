@@ -1,8 +1,8 @@
-Grading at 10/02/2023:02:14:00.347274
-For commit ID 60ceb6755181621c7ef438777329f6464876803d
-Grading at Sun Oct  1 10:13:55 PM EDT 2023
+Grading at 10/02/2023:02:16:55.555729
+For commit ID b8d5565311c15e88953aadb024877453c0a4e3fb
+Grading at Sun Oct  1 10:16:50 PM EDT 2023
 Attempting to compile breaker.c 
-make: 'breaker' is up to date.
+gcc -o breaker -pedantic -std=gnu99 -Wall -Werror breaker.c
 valgrind reported memory errors
 #################################################
 testcase2:
