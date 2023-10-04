@@ -18,15 +18,15 @@ void rotateMatrix(FILE * f) {
 
     if (row == 10) {
       fprintf(stderr, "Input has more than 10 lines");
-      EXIT_FAILURE;
+      exit(EXIT_FAILURE);
     }
     if (strchr(line, '\n') == NULL) {
       fprintf(stderr, "there is a line missing new space");
-      EXIT_FAILURE;
+      exit(EXIT_FAILURE);
     }
     if (line[10] != '\n') {
       fprintf(stderr, "input does not have right format");
-      EXIT_FAILURE;
+      exit(EXIT_FAILURE);
     }
 
     for (int i = 0; i < 10; i++) {
