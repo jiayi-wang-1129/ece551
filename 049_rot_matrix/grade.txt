@@ -1,6 +1,6 @@
-Grading at 10/04/2023:19:25:16.597722
-For commit ID 0ee2d1d0ecd4444518eb21011309bd495c74c469
-Grading at Wed Oct  4 03:25:12 PM EDT 2023
+Grading at 10/04/2023:19:40:44.059317
+For commit ID fe616876ba3f67b9318a127caff4669484c1be8b
+Grading at Wed Oct  4 03:40:39 PM EDT 2023
 Attempting to compile rotateMatrix.c
 testcase1 passed
 #################################################
@@ -8,10 +8,10 @@ testcase2:
 testcase2 passed
 #################################################
 testcase3:
-valgrind reported memory errors
+testcase3 passed
 #################################################
 testcase4:
-valgrind reported memory errors
+testcase4 passed
 #################################################
 testcase5:
 testcase5 passed
@@ -20,4 +20,4 @@ testcase6:
 Your file matched the expected output
 testcase6 passed
 
-Overall Grade: C
+Overall Grade: A
