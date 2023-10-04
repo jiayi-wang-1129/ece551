@@ -20,7 +20,7 @@ void rotateMatrix(FILE * f) {
       fprintf(stderr, "Input has more than 10 lines");
       EXIT_FAILURE;
     }
-    if (strchr(line, '\n') != NULL) {
+    if (strchr(line, '\n') == NULL) {
       fprintf(stderr, "there is a line missing new space");
       EXIT_FAILURE;
     }
