@@ -64,41 +64,6 @@ ss_monthly_t parseLine(char * line) {
   return ans;
 }
 
-//   if (atoi(&line[5]) >= 2 || (atoi(&line[5]) == 1 && atoi(&line[6]) > 2)) {
-//    printf("%s %s\n", &line[5], &line[6]);
-//    fprintf(stderr, "input is not valid for month");
-//     exit(EXIT_FAILURE);
-//   }
-//   if (!isdigit(line[8])) {
-//    fprintf(stderr, "input is not a floating number for sunspots-1");
-//    exit(EXIT_FAILURE);
-//   }
-//   char year_c = line[0];
-//   char month_c = line[5] + line[6];
-//   printf("The month is %s:\n", &month_c);
-//   const char * ptr = &line[8];
-//   char num_c = *ptr;
-//   ans.month = atoi(&month_c);
-//   printf("The month is %d\n:", ans.month);
-//   for (int i = 1; i < 4; i++) {
-//    year_c += line[i];
-//   }
-//   printf("The year is %s:\n", &year_c);
-//   ans.year = atoi(&year_c);
-//   printf("The year is %d:\n", ans.year);
-
-//   while (*ptr != '\0') {
-//   ptr++;
-//   int countdot = 0;
-//   if (isdigit(*ptr)) {
-//     num_c += *ptr;
-//   }
-//    if (*ptr == '.' && countdot == 0) {
-//  countdot++;
-//  num_c += *ptr;
-//  }
-//   }
-
 void meanFilter(ss_monthly_t * data, size_t n, ss_monthly_t * mean, unsigned w) {
   size_t h_w = w / 2;
   //Standarlize array mean;
