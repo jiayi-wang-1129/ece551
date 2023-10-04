@@ -44,8 +44,8 @@ void rotateMatrix(FILE * f) {
   // }
   //}
 
-  for (int n = 9; n >= 0; n--) {
-    for (int j = 0; j < 10; j++) {
+  for (int n = 0; n < 10; n++) {
+    for (int j = 9; j >= 0; j--) {
       fprintf(stdout, "%c", storing[j][n]);
       //  output[9 - n][j] = storing[j][n];
     }
