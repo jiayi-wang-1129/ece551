@@ -1,12 +1,33 @@
-Grading at 10/04/2023:16:26:15.369514
-For commit ID 2d4d937752f0a97d0843ef47b337bb71bc6aebb2
-Grading at Wed Oct  4 12:26:15 PM EDT 2023
+Grading at 10/04/2023:17:57:51.572768
+For commit ID 648cba406aed14f1e1d414b1762f6558a31d146c
+Grading at Wed Oct  4 01:57:47 PM EDT 2023
 Attempting to compile rotateMatrix.c
-rotateMatrix.c: In function ‘rotateMatrix’:
-rotateMatrix.c:6:7: error: unused variable ‘c’ [-Werror=unused-variable]
-    6 |   int c;
-      |       ^
-cc1: all warnings being treated as errors
-The code did not compile!
+testcase1 passed
+#################################################
+testcase2:
+testcase2 passed
+#################################################
+testcase3:
+valgrind reported memory errors
+#################################################
+testcase4:
+valgrind reported memory errors
+#################################################
+testcase5:
+testcase5 failed, your program didn't indicate this is a failure case
+#################################################
+testcase6:
+Line_1_did_not_match
+Line_2_did_not_match
+Line_3_did_not_match
+Line_4_did_not_match
+Line_5_did_not_match
+Line_6_did_not_match
+Line_7_did_not_match
+Line_8_did_not_match
+Line_9_did_not_match
+Line_10_did_not_match
+Your file did not match the expected output
+testcase6 failed, your output did not match with the answer
 
 Overall Grade: F
