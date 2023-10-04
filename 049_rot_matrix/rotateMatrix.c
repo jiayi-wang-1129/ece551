@@ -7,6 +7,10 @@ void rotateMatrix(FILE * f) {
 
   char line[12] = {0};
   char storing[10][10];
+  // if ((fgetc(f)) == EOF) {
+  // fprintf(stderr, "Input is empty!");
+  //  exit(EXIT_FAILURE);
+  // }
   //  char output[10][10];
   // const char* matrix={0};//pointer to read each line
   int row = 0;
@@ -33,6 +37,10 @@ void rotateMatrix(FILE * f) {
       storing[row][i] = line[i];
     }
     row++;
+  }
+  if (row < 10) {
+    fprintf(stderr, "Input has fewer than 10 lines");
+    exit(EXIT_FAILURE);
   }
 
   //1, more than 10 lines 2.each line more than 10 string before /n, or has stuff after string
