@@ -6,6 +6,25 @@
 #include <string.h>
 
 ss_monthly_t parseLine(char * line) {
+  if (line[4] != '-') {
+    fprintf(stderr, "Formating error:missing hyphen");
+    exit(EXIT_FAILURE);
+  }
+
+  if (line[7] != ',') {
+    fprintf(stderr, "Formating error:missing comma");
+    exit(EXIT_FAILURE);
+  }
+
+  if (!isdigit(line[0]) || !isdigit(line[1]) || !isdigit(line[2]) || !isdigit(line[3])) {
+    fprintf(stderr, "input year is not a number;invalid input");
+    exit(EXIT_FAILURE);
+  }
+
+  if (!isdigit(line[5]) || !isdigit(line[6])) {
+    fprintf(stderr, "input month is not a number;invalid input");
+    exit(EXIT_FAILURE);
+  }
   if (line == NULL) {
     fprintf(stderr, "input is NULL");
     exit(EXIT_FAILURE);
@@ -44,29 +63,7 @@ ss_monthly_t parseLine(char * line) {
   }
   return ans;
 }
-//   if (line[4] != '-') {
-//     fprintf(stderr, "Formating error:missing hyphen");
-//     exit(EXIT_FAILURE);
-//   }
 
-//   if (line[7] != ',') {
-//    fprintf(stderr, "Formating error:missing comma");
-//    exit(EXIT_FAILURE);
-//   }
-//  if (!isdigit(line[0]) || !isdigit(line[1]) || !isdigit(line[2]) || !isdigit(line[3])) {
-//   fprintf(stderr, "input year is not a number");
-//   exit(EXIT_FAILURE);
-//   }
-//   else {
-//    printf("%s %s %s %s", &line[0], &line[1], &line[2], &line[3]);
-//   }
-//   if (!isdigit(line[5]) || !isdigit(line[6])) {
-//    fprintf(stderr, "input month is not a number");
-//    exit(EXIT_FAILURE);
-//   }
-//   else {
-//    printf("%s %s\n", &line[5], &line[6]);
-//  }
 //   if (atoi(&line[5]) >= 2 || (atoi(&line[5]) == 1 && atoi(&line[6]) > 2)) {
 //    printf("%s %s\n", &line[5], &line[6]);
 //    fprintf(stderr, "input is not valid for month");
@@ -101,14 +98,6 @@ ss_monthly_t parseLine(char * line) {
 //  num_c += *ptr;
 //  }
 //   }
-//   ans.num = atof(&num_c);
-//   printf("sunspot number is:%f\n", ans.num);
-//  if (ans.num < 0) {
-//  fprintf(stderr, "input is negative for sunspots\n");
-// exit(EXIT_FAILURE);
-//  }
-//  return ans;
-//}
 
 void meanFilter(ss_monthly_t * data, size_t n, ss_monthly_t * mean, unsigned w) {
   size_t h_w = w / 2;
