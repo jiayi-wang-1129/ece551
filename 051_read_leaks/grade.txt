@@ -1,0 +1,40 @@
+Grading at 10/05/2023:14:14:07.688336
+For commit ID a480c8b6c7fff1c96e19545ab0a8cfff87c440be
+Grading at Thu Oct  5 10:14:06 AM EDT 2023
+I expected to find a file called 'leaks.txt' but it did not exist
+(or was not a regular file)
+Here are the files that I can find:
+leask.txt
+Makefile
+README
+test.c
+Your output did not match what we expected.
+Attempting to compile test.c
+valgrind was not clean
+==2522729== Memcheck, a memory error detector
+==2522729== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2522729== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==2522729== 
+==2522729== Parent PID: 2522728
+==2522729== 
+==2522729== 
+==2522729== HEAP SUMMARY:
+==2522729==     in use at exit: 8 bytes in 1 blocks
+==2522729==   total heap usage: 3 allocs, 2 frees, 32 bytes allocated
+==2522729== 
+==2522729== 8 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==2522729==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==2522729==    by 0x1091A1: f (in test)
+==2522729==    by 0x10921C: main (in test)
+==2522729== 
+==2522729== LEAK SUMMARY:
+==2522729==    definitely lost: 8 bytes in 1 blocks
+==2522729==    indirectly lost: 0 bytes in 0 blocks
+==2522729==      possibly lost: 0 bytes in 0 blocks
+==2522729==    still reachable: 0 bytes in 0 blocks
+==2522729==         suppressed: 0 bytes in 0 blocks
+==2522729== 
+==2522729== For lists of detected and suppressed errors, rerun with: -s
+==2522729== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+
+Overall Grade: F
