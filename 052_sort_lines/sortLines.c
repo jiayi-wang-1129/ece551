@@ -17,23 +17,29 @@ void sortData(char ** data, size_t count) {
 //sizeof(char *) is size of each line
 
 int main(int argc, char ** argv) {
-  char * line = NULL;
+  // char * line = NULL;
   size_t * sz = 0;
+  size_t num = 0;
+  char ** ptr = NULL;
+  char ** store = NULL;
   if (argc == 1) {
     FILE * f = fopen(argv[0], "r");
     if (f == NULL) {
       fprintf(stderr, "Could not open file");
       return EXIT_FAILURE;
     }
-    while (getline(&line, sz, f) != -1) {
-      for (size_t i = 0; i < *sz; i++) {
-        fprintf(stdout, "%s", line);
-      }
-      free(line);
+    while (getline(ptr, sz, f) != -1) {
+      *store = malloc(*sz);
+      *store = *ptr;
+      store++;
+      //store has size sz for each line,
       free(sz);
-      line = NULL;
+      free(ptr);
+      num++;
     }
-
+    for (size_t i = 0; i < num; i++) {
+      printf("%s", store[i]);
+    }
     if (fclose(f) != 0) {
       fprintf(stderr, "Could not close file");
       return EXIT_FAILURE;
