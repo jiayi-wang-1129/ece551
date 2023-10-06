@@ -1,18 +1,18 @@
-Grading at 10/06/2023:19:14:16.963801
-For commit ID 20c3315053ada8ad886f938ef6bff16472fc48f0
-Grading at Fri Oct  6 03:14:12 PM EDT 2023
+Grading at 10/06/2023:22:46:08.778220
+For commit ID 60966f86517fa9c1dbcdad5e7593e172c0d7debd
+Grading at Fri Oct  6 06:46:05 PM EDT 2023
 Attempting to compile sortLines.c
 #################################################
 testcase 1:
-testcase 1 passed, your program successfully indicated a failure
+valgrind reported memory errors
 #################################################
 testcase2:
 Your output is incorrect
 #################################################
 testcase3:
-Your output is incorrect
+valgrind reported memory errors
 #################################################
 testcase4:
-Your output is incorrect
+valgrind reported memory errors
 
 Overall Grade: F
