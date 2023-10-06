@@ -37,7 +37,7 @@ int main(int argc, char ** argv) {
       //  free(ptr);
       num++;
     }
-    sortData(store, num);
+    //   sortData(store, num);
     for (size_t i = 0; i < num; i++) {
       printf("%s", store[i]);
       // printf("%c", '\n');
