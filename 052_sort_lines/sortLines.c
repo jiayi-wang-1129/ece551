@@ -20,7 +20,7 @@ int main(int argc, char ** argv) {
   // char * line = NULL;
   size_t * sz = 0;
   size_t num = 0;
-  char ** ptr = NULL;
+  char * ptr = NULL;
   char ** store = NULL;
   if (argc == 1) {
     FILE * f = fopen(argv[0], "r");
@@ -28,15 +28,17 @@ int main(int argc, char ** argv) {
       fprintf(stderr, "Could not open file");
       return EXIT_FAILURE;
     }
-    while (getline(ptr, sz, f) != -1) {
+    while (getline(&ptr, sz, f) != -1) {
       *store = malloc(*sz);
-      *store = *ptr;
+      *store = ptr;
       store++;
+      printf("%s", ptr);
       //store has size sz for each line,
       free(sz);
       free(ptr);
       num++;
     }
+    sortData(store, num);
     for (size_t i = 0; i < num; i++) {
       printf("%s", store[i]);
       printf("%c", '\n');
