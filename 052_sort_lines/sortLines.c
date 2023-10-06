@@ -22,8 +22,8 @@ int main(int argc, char ** argv) {
   size_t num = 0;
   char * ptr = NULL;
   char ** store = NULL;
-  if (argc == 1) {
-    FILE * f = stdin;
+  if (argc > 1) {
+    FILE * f = fopen(argv[argc - 1], "r");
     if (f == NULL) {
       fprintf(stderr, "Could not open file");
       return EXIT_FAILURE;
@@ -40,40 +40,10 @@ int main(int argc, char ** argv) {
     sortData(store, num);
     for (size_t i = 0; i < num; i++) {
       printf("%s", store[i]);
-      printf("%c", '\n');
+      // printf("%c", '\n');
     }
     free(store);
-    if (fclose(f) != 0) {
-      fprintf(stderr, "Could not close file");
-      return EXIT_FAILURE;
-    }
-  }
-  for (int i = 1; i < argc; i++) {
-    FILE * f = fopen(argv[i], "r");
-    if (f == NULL) {
-      fprintf(stderr, "Could not open file");
-      return EXIT_FAILURE;
-    }
-    while (getline(&ptr, &sz, f) != -1) {
-      store = realloc(store, sz * (num + 1));
-      store[num] = ptr;
-      //  printf("%s", store[num]);
-      //store has size sz for each line,
-      // free(&sz);
-      //  free(ptr);
-      num++;
-    }
-    sortData(store, num);
-    for (size_t i = 0; i < num; i++) {
-      printf("%s", store[i]);
-      printf("%c", '\n');
-    }
-    free(store);
-    if (fclose(f) != 0) {
-      fprintf(stderr, "Could not close file");
-      return EXIT_FAILURE;
-    }
-
+    free(ptr);
     if (fclose(f) != 0) {
       fprintf(stderr, "Could not close file");
       return EXIT_FAILURE;
