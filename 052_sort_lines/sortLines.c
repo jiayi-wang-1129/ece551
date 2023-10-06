@@ -39,6 +39,7 @@ int main(int argc, char ** argv) {
     }
     for (size_t i = 0; i < num; i++) {
       printf("%s", store[i]);
+      printf("%c", '\n');
     }
     if (fclose(f) != 0) {
       fprintf(stderr, "Could not close file");
