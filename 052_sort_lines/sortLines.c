@@ -43,16 +43,19 @@ int main(int argc, char ** argv) {
       // free(&sz);
       //  free(ptr);
       num++;
+
       ptr = NULL;
+      free(ptr);
       //  count = getline(&ptr, &sz, f);
     }
+    free(ptr);
     sortData(store, num);
     for (size_t i = 0; i < num; i++) {
       printf("%s", store[i]);
       //   printf("%c", '\n');
+      //  free(store[i]);
     }
     free(store);
-    free(ptr);
     if (fclose(f) != 0) {
       fprintf(stderr, "Could not close file");
       return EXIT_FAILURE;
