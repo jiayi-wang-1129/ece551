@@ -63,6 +63,11 @@ int main(int argc, char ** argv) {
   //  ssize_t count = 0;
   if (argc > 1) {
     for (int i = 0; i < argc - 1; i++) {
+      size_t sz = 0;
+      size_t num = 0;
+      char * ptr = NULL;
+      char ** store = NULL;
+
       FILE * f = fopen(argv[i + 1], "r");
       if (f == NULL) {
         fprintf(stderr, "Could not open file");
@@ -99,9 +104,9 @@ int main(int argc, char ** argv) {
         fprintf(stderr, "Could not close file");
         return EXIT_FAILURE;
       }
-      free(argv[i + 1]);
+      // free(argv[i + 1]);
     }
-    free(argv);
+    // free(argv);
   }
   //WRITE YOUR CODE HERE!
 
