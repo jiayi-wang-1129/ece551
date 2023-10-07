@@ -22,25 +22,34 @@ int main(int argc, char ** argv) {
   size_t num = 0;
   char * ptr = NULL;
   char ** store = NULL;
+  //  ssize_t count = 0;
   if (argc > 1) {
     FILE * f = fopen(argv[argc - 1], "r");
     if (f == NULL) {
       fprintf(stderr, "Could not open file");
       return EXIT_FAILURE;
     }
+    // count = getline(&ptr, &sz, f);
     while (getline(&ptr, &sz, f) != -1) {
       store = realloc(store, sz * (num + 1));
+      // for (ssize_t i = 0; i < count; i++) {
+      //printf(" %c\n", ptr[i]);
+      //  *(store[num]) = ptr[i];
+      // (store[num])++;
+      // }
       store[num] = ptr;
       //  printf("%s", store[num]);
       //store has size sz for each line,
       // free(&sz);
       //  free(ptr);
       num++;
+      ptr = NULL;
+      //  count = getline(&ptr, &sz, f);
     }
-    //   sortData(store, num);
+    sortData(store, num);
     for (size_t i = 0; i < num; i++) {
       printf("%s", store[i]);
-      // printf("%c", '\n');
+      //   printf("%c", '\n');
     }
     free(store);
     free(ptr);
