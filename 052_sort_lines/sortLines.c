@@ -22,9 +22,8 @@ int main(int argc, char ** argv) {
   size_t num = 0;
   char * ptr = NULL;
   char ** store = NULL;
-  //  ssize_t count = 0;
-  if (argc > 1) {
-    FILE * f = fopen(argv[argc - 1], "r");
+  if (argc == 1) {
+    FILE * f = stdin;
     if (f == NULL) {
       fprintf(stderr, "Could not open file");
       return EXIT_FAILURE;
@@ -52,8 +51,7 @@ int main(int argc, char ** argv) {
     sortData(store, num);
     for (size_t i = 0; i < num; i++) {
       printf("%s", store[i]);
-      //   printf("%c", '\n');
-      free(store[i]);
+      //   printf("%c", '\n');                                                                                                                                                                free(store[i]);
     }
     free(store);
     if (fclose(f) != 0) {
@@ -62,6 +60,47 @@ int main(int argc, char ** argv) {
     }
   }
 
+  //  ssize_t count = 0;
+  if (argc > 1) {
+    for (int i = 0; i < argc - 1; i++) {
+      FILE * f = fopen(argv[i + 1], "r");
+      if (f == NULL) {
+        fprintf(stderr, "Could not open file");
+        return EXIT_FAILURE;
+      }
+      // count = getline(&ptr, &sz, f);
+      while (getline(&ptr, &sz, f) != -1) {
+        store = realloc(store, sz * (num + 1));
+        // for (ssize_t i = 0; i < count; i++) {
+        //printf(" %c\n", ptr[i]);
+        //  *(store[num]) = ptr[i];
+        // (store[num])++;
+        // }
+        store[num] = ptr;
+        //  printf("%s", store[num]);
+        //store has size sz for each line,
+        // free(&sz);
+        //  free(ptr);
+        num++;
+
+        ptr = NULL;
+        free(ptr);
+        //  count = getline(&ptr, &sz, f);
+      }
+      free(ptr);
+      sortData(store, num);
+      for (size_t i = 0; i < num; i++) {
+        printf("%s", store[i]);
+        //   printf("%c", '\n');
+        free(store[i]);
+      }
+      free(store);
+      if (fclose(f) != 0) {
+        fprintf(stderr, "Could not close file");
+        return EXIT_FAILURE;
+      }
+    }
+  }
   //WRITE YOUR CODE HERE!
 
   return EXIT_SUCCESS;
