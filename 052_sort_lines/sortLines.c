@@ -53,7 +53,7 @@ int main(int argc, char ** argv) {
     for (size_t i = 0; i < num; i++) {
       printf("%s", store[i]);
       //   printf("%c", '\n');
-      //  free(store[i]);
+      free(store[i]);
     }
     free(store);
     if (fclose(f) != 0) {
