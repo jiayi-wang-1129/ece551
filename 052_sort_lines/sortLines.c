@@ -99,7 +99,9 @@ int main(int argc, char ** argv) {
         fprintf(stderr, "Could not close file");
         return EXIT_FAILURE;
       }
+      free(argv[i + 1]);
     }
+    free(argv);
   }
   //WRITE YOUR CODE HERE!
 
