@@ -100,9 +100,12 @@ int click(board_t * b, int x, int y) {
 
 /* Determines if game is won when no squares are UNKNOWN */
 int checkWin(board_t * b) {
-  for (int i = 0; i < b->width; i++) {
-    for (int j = 0; j < b->height; j++) {
-      if (b->board[j][i] != UNKNOWN) {
+  for (int i = 1; i < b->width - 1; i++) {
+    for (int j = 1; j < b->height - 1; j++) {
+      if (b->board[j][i] != UNKNOWN &&
+          (b->board[j - 1][i - 1] == HAS_MINE || b->board[j + 1][i + 1] == HAS_MINE ||
+           b->board[j - 1][i] == HAS_MINE || b->board[j - 1][i + 1] == HAS_MINE ||
+           b->board[j][i - 1] == HAS_MINE || b->board[j][i + 1] == HAS_MINE)) {
         return 1;
       }
     }
@@ -179,7 +182,7 @@ int maybeReveal(board_t * b, int x, int y) {
     for (int dx = -1; dx <= 1; dx++) {
       int nx = x + dx;
       int ny = y + dy;
-      if (nx >= 0 && nx < b->width) {
+      if (nx >= 0 && nx < b->width && ny >= 0 && ny < b->height) {
         if (b->board[ny][nx] == UNKNOWN || b->board[ny][nx] == HAS_MINE) {
           unknownSquares++;
         }
