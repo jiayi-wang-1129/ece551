@@ -140,6 +140,9 @@ int countMines(board_t * b, int x, int y) {
       }
     }
   }
+  if (IS_MINE(b->board[y][x])) {
+    count--;
+  }
   // WRITE ME!
   return count;
 }
