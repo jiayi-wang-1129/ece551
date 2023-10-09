@@ -43,7 +43,7 @@ int main(int argc, char ** argv) {
       //  free(ptr);
       num++;
 
-      ptr = NULL;
+      // ptr = NULL;
       free(ptr);
       //  count = getline(&ptr, &sz, f);
     }
