@@ -73,10 +73,10 @@ board_t * makeBoard(int w, int h, int numMines) {
  */
 void printBoard(board_t * b) {
   int found = 0;
-  printf("width is %d, height is %d, num of mine is %d: ",
-         b->width,
-         b->height,
-         b->totalMines);
+  //  printf("width is %d, height is %d, num of mine is %d: ",
+  //  b->width,
+  //  b->height,
+  //     b->totalMines);
   printf("    ");
   for (int x = 0; x < b->width; x++) {
     printf("%d", x / 10);
