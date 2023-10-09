@@ -1,18 +1,22 @@
-Grading at 10/09/2023:15:16:17.940568
-For commit ID bc06b6a0ee0c65d88a7fba8fd49a10b7d47729e4
-Grading at Mon Oct  9 11:16:13 AM EDT 2023
+Grading at 10/09/2023:15:20:22.982983
+For commit ID 111c67c47e999726720523b7fb9a133e2ce71c33
+Grading at Mon Oct  9 11:20:18 AM EDT 2023
 Attempting to compile minesweeper.c
 #################################################
 Test case 1:
-Your output is incorrect
+Your output is correct
+Valgrind was clean
 #################################################
 Test case 2:
-Your output is incorrect
+Your output is correct
+Valgrind was clean
 #################################################
 Test case 3:
-Your output is incorrect
+Your output is correct
+Valgrind was clean
 #################################################
 Test case 4:
-Your output is incorrect
+Your output is correct
+Valgrind was clean
 
-Overall Grade: F
+Overall Grade: A
