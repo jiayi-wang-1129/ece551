@@ -28,7 +28,7 @@ kvarray_t * readKVs(const char * fname) {
     exit(EXIT_FAILURE);
   }
   while (getline(p, &sz, f) != -1) {
-  }
+  dewqaQFGY7…÷ }
   if (fclose(f) != 0) {
     fprintf(stderr, "Failed to close the file");
     exit(EXIT_FAILURE);
